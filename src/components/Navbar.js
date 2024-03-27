@@ -1,51 +1,44 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import Logo from '../assets/images/Logo.png';
+import { Link } from 'react-router-dom';
 
-import Logo from "../assets/images/Logo.png";
+const Navbar = () => {
+  return (
+    <div>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
+          <Link className="navbar-brand" to="/">
+            <img src={Logo} alt="" width="30" height="24" className="d-inline-block align-text-top mx-2" />
+            FitHub
+          </Link>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/">Exercises</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/food">Foods</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/disease">Disease</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/pushup">FitTest</Link>
+              </li>
 
-const Navbar = () => (
-  <div
-    style={{
-      flexDirection: "row",
-      justifyContent: "space-around",
-      marginTop: "25px",
-      padding: " 0 20px",
-    }}
-  >
-    <Link to="/">
-      <img
-        src={Logo}
-        alt="logo"
-        style={{ width: "48px", height: "48px", margin: "0px 20px" }}
-      />
-    </Link>
-    <div
-      style={{
-        flexDirection: "row",
-        gap: "40px",
-        fontFamily: "Alegreya",
-        fontSize: "24px",
-        alignItems: "flex-end",
-      }}
-    >
-      <Link
-        to="/"
-        style={{
-          textDecoration: "none",
-          color: "#3A1212",
-          borderBottom: "3px solid #FF2625",
-        }}
-      >
-        Home
-      </Link>
-      <a
-        href="#exercises"
-        style={{ textDecoration: "none", color: "#3A1212", padding: "40px" }}
-      >
-        Exercises
-      </a>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
     </div>
-  </div>
-);
+  )
+}
 
-export default Navbar;
+export default Navbar
