@@ -1,0 +1,81 @@
+@media (max-width:1001px) {
+	.font-1 {
+		font-size: 2.2rem;
+
+	}
+
+	.font-2 {
+		font-size: 1.8rem;
+	}
+}
+
+
+@media (max-width: 960px) {
+	.card-img {
+		height: auto;
+	}
+}
+
+@media (max-width: 769px) {
+	.font-1 {
+		font-size: 1.7rem;
+
+	}
+
+	.font-2 {
+		font-size: 1.3rem;
+	}
+
+	.font-3 {
+		font-size: 1.2rem;
+	}
+
+	.search-display {
+		justify-content: center;
+	}
+}
+
+@media (max-width:516px) {
+	.font-1 {
+		font-size: 1.3rem;
+
+	}
+
+	.font-2 {
+		font-size: 1rem;
+	}
+
+	.font-3 {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width:413px) {
+	.font-1 {
+		font-size: 15px;
+
+	}
+
+	.font-2 {
+		font-size: 12px;
+	}
+
+	.font-3 {
+		font-size: 14px;
+	}
+}
+
+@media (max-width:332px) {
+	.font-1 {
+		font-size: 14px;
+
+	}
+
+	.font-2 {
+		font-size: 10px;
+	}
+
+	.font-3 {
+		font-size: 13px;
+	}
+}

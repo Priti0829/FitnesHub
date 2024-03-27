@@ -1,0 +1,983 @@
+{
+	"foods": [
+		{
+			"name": "Apple",
+			"nutrition": {
+				"calories": 95,
+				"fat": 0.3,
+				"carbohydrates": 25,
+				"protein": 0.5,
+				"fiber": 4.4
+			},
+			"image": "https://images.pexels.com/photos/209439/pexels-photo-209439.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Banana",
+			"nutrition": {
+				"calories": 105,
+				"fat": 0.4,
+				"carbohydrates": 27,
+				"protein": 1.3,
+				"fiber": 3.1
+			},
+			"image": "https://images.pexels.com/photos/2238316/pexels-photo-2238316.jpeg?auto=compress&cs=tinysrgb&w=600"
+		},
+		{
+			"name": "Chicken Breast",
+			"nutrition": {
+				"calories": 165,
+				"fat": 3.6,
+				"carbohydrates": 0,
+				"protein": 31,
+				"fiber": 0
+			},
+			"image": "https://images.pexels.com/photos/3688/food-dinner-lunch-chicken.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Broccoli",
+			"nutrition": {
+				"calories": 55,
+				"fat": 0.6,
+				"carbohydrates": 11,
+				"protein": 4.2,
+				"fiber": 5.1
+			},
+			"image": "https://images.pexels.com/photos/3722583/pexels-photo-3722583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Brown Rice",
+			"nutrition": {
+				"calories": 112,
+				"fat": 0.9,
+				"carbohydrates": 23,
+				"protein": 2.6,
+				"fiber": 1.8
+			},
+			"image": "https://images.pexels.com/photos/4110257/pexels-photo-4110257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Salmon",
+			"nutrition": {
+				"calories": 206,
+				"fat": 13.4,
+				"carbohydrates": 0,
+				"protein": 22,
+				"fiber": 0
+			},
+			"image": "https://images.pexels.com/photos/676560/pexels-photo-676560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Quinoa",
+			"nutrition": {
+				"calories": 222,
+				"fat": 3.6,
+				"carbohydrates": 39,
+				"protein": 8.1,
+				"fiber": 5.2
+			},
+			"image": "https://media-cdn2.greatbritishchefs.com/media/in1o4glq/img23323.whqc_683x455q80.webp"
+		},
+		{
+			"name": "Spinach",
+			"nutrition": {
+				"calories": 23,
+				"fat": 0.4,
+				"carbohydrates": 3.6,
+				"protein": 2.9,
+				"fiber": 2.2
+			},
+			"image": "https://images.pexels.com/photos/2325843/pexels-photo-2325843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Paneer Tikka",
+			"nutrition": {
+				"calories": 260,
+				"fat": 18,
+				"carbohydrates": 10,
+				"protein": 14,
+				"fiber": 1.5
+			},
+			"image": "https://images.pexels.com/photos/9609835/pexels-photo-9609835.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Masala Dosa",
+			"nutrition": {
+				"calories": 290,
+				"fat": 7,
+				"carbohydrates": 54,
+				"protein": 6,
+				"fiber": 6
+			},
+			"image": "https://media.istockphoto.com/id/909906350/photo/masala-dosa-south-indian-food.jpg?s=2048x2048&w=is&k=20&c=4EPw7qJOI5oaOkYGsNig-fgGDQk0rhfInsqi-rKG7hE="
+		},
+		{
+			"name": "Chole Bhature",
+			"nutrition": {
+				"calories": 450,
+				"fat": 20,
+				"carbohydrates": 60,
+				"protein": 10,
+				"fiber": 8
+			},
+			"image": "https://static.toiimg.com/thumb/98230357.cms?width=680&height=512&imgsize=100402"
+		},
+		{
+			"name": "Avocado",
+			"nutrition": {
+				"calories": 160,
+				"fat": 15,
+				"carbohydrates": 9,
+				"protein": 2,
+				"fiber": 7
+			},
+			"image": "https://media.istockphoto.com/id/854389420/photo/fresh-avocado-on-cutting-board.jpg?s=2048x2048&w=is&k=20&c=6DooBoSBX54fIaFnr0SV__eMHfwD1z0BJSC7ArVTRPQ="
+		},
+		{
+			"name": "Oatmeal",
+			"nutrition": {
+				"calories": 150,
+				"fat": 2.5,
+				"carbohydrates": 27,
+				"protein": 5,
+				"fiber": 4
+			},
+			"image": "https://images.pexels.com/photos/216951/pexels-photo-216951.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Greek Yogurt",
+			"nutrition": {
+				"calories": 100,
+				"fat": 0,
+				"carbohydrates": 6,
+				"protein": 17,
+				"fiber": 0
+			},
+			"image": "https://www.liveeatlearn.com/wp-content/uploads/2015/11/how-to-make-greek-yogurt-11.jpg"
+		},
+		{
+			"name": "Eggs",
+			"nutrition": {
+				"calories": 70,
+				"fat": 5,
+				"carbohydrates": 1,
+				"protein": 6,
+				"fiber": 0
+			},
+			"image": "https://images.pexels.com/photos/600615/pexels-photo-600615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Sweet Potato",
+			"nutrition": {
+				"calories": 112,
+				"fat": 0.1,
+				"carbohydrates": 26,
+				"protein": 2,
+				"fiber": 4
+			},
+			"image": "https://images.pexels.com/photos/6060223/pexels-photo-6060223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Almonds",
+			"nutrition": {
+				"calories": 160,
+				"fat": 14,
+				"carbohydrates": 6,
+				"protein": 6,
+				"fiber": 4
+			},
+			"image": "https://images.pexels.com/photos/3997459/pexels-photo-3997459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Cottage Cheese",
+			"nutrition": {
+				"calories": 120,
+				"fat": 2,
+				"carbohydrates": 3,
+				"protein": 20,
+				"fiber": 0
+			},
+			"image": "https://images.pexels.com/photos/306801/pexels-photo-306801.jpeg"
+		},
+		{
+			"name": "Tuna",
+			"nutrition": {
+				"calories": 130,
+				"fat": 1,
+				"carbohydrates": 0,
+				"protein": 30,
+				"fiber": 0
+			},
+			"image": "https://images.pexels.com/photos/952647/pexels-photo-952647.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Whey Protein",
+			"nutrition": {
+				"calories": 120,
+				"fat": 1,
+				"carbohydrates": 3,
+				"protein": 24,
+				"fiber": 0
+			},
+			"image": "https://www.nutraingredients.com/var/wrbm_gb_food_pharma/storage/images/_aliases/wrbm_large/publications/food-beverage-nutrition/nutraingredients.com/news/markets-and-trends/sports-nutrition-brands-charged-crazy-whey-protein-prices-due-to-low-supply/12686890-1-eng-GB/Sports-nutrition-brands-charged-crazy-whey-protein-prices-due-to-low-supply.jpg"
+		},
+		{
+			"name": "Beef",
+			"nutrition": {
+				"calories": 250,
+				"fat": 15,
+				"carbohydrates": 0,
+				"protein": 25,
+				"fiber": 0
+			},
+			"image": "https://images.pexels.com/photos/618775/pexels-photo-618775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Peanut Butter",
+			"nutrition": {
+				"calories": 190,
+				"fat": 16,
+				"carbohydrates": 7,
+				"protein": 7,
+				"fiber": 3
+			},
+			"image": "https://images.pexels.com/photos/6659897/pexels-photo-6659897.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Black Beans",
+			"nutrition": {
+				"calories": 130,
+				"fat": 0.5,
+				"carbohydrates": 24,
+				"protein": 9,
+				"fiber": 8
+			},
+			"image": "https://www.foodandwine.com/thmb/pgYoXdCfarlHKqzUytUEBROlQB4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/FAW-cuban-black-beans-hero-01-3eca78d4ceda4d36b627dd9e4b734d79.jpg"
+		},
+		{
+			"name": "Whole Wheat Bread",
+			"nutrition": {
+				"calories": 80,
+				"fat": 1,
+				"carbohydrates": 15,
+				"protein": 4,
+				"fiber": 3
+			},
+			"image": "https://images.pexels.com/photos/7693945/pexels-photo-7693945.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Cauliflower",
+			"nutrition": {
+				"calories": 25,
+				"fat": 0.3,
+				"carbohydrates": 5,
+				"protein": 2,
+				"fiber": 3
+			},
+			"image": "https://images.pexels.com/photos/7571998/pexels-photo-7571998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Lentils",
+			"nutrition": {
+				"calories": 230,
+				"fat": 0.4,
+				"carbohydrates": 40,
+				"protein": 18,
+				"fiber": 16
+			},
+			"image": "https://www.eatingwell.com/thmb/G2S54l-GaDkxETfncfj0GKLDsNU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/how-to-cook-lentils-opener-2000-9427064c3429470cb7c9b14646ea8a0e.jpg"
+		},
+		{
+			"name": "Tomato",
+			"nutrition": {
+				"calories": 20,
+				"fat": 0.2,
+				"carbohydrates": 5,
+				"protein": 1,
+				"fiber": 1.5
+			},
+			"image": "https://images.pexels.com/photos/533280/pexels-photo-533280.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Orange",
+			"nutrition": {
+				"calories": 62,
+				"fat": 0.2,
+				"carbohydrates": 15,
+				"protein": 1,
+				"fiber": 3.1
+			},
+			"image": "https://media.istockphoto.com/id/1314957407/photo/lots-of-fresh-ripe-peeled-oranges-good-source-of-vitamin-c-immunity-booster-fruit.jpg?s=2048x2048&w=is&k=20&c=S5_DU_Q5rqqptZcNAYtz9sya1_zwYJSrBTUr1e_HhxM="
+		},
+		{
+			"name": "Mango",
+			"nutrition": {
+				"calories": 60,
+				"fat": 0.4,
+				"carbohydrates": 15,
+				"protein": 0.8,
+				"fiber": 1.6
+			},
+			"image": "https://images.pexels.com/photos/39303/mango-tropical-fruit-juicy-sweet-39303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Raspberries",
+			"nutrition": {
+				"calories": 64,
+				"fat": 0.8,
+				"carbohydrates": 14,
+				"protein": 1.5,
+				"fiber": 8
+			},
+			"image": "https://images.pexels.com/photos/59999/raspberries-fruits-fruit-berries-59999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Cucumber",
+			"nutrition": {
+				"calories": 16,
+				"fat": 0.1,
+				"carbohydrates": 4,
+				"protein": 0.7,
+				"fiber": 0.5
+			},
+			"image": "https://www.greendna.in/cdn/shop/products/cucumber_1_1024x1024@2x.jpg?v=1594219681"
+		},
+		{
+			"name": "Carrots",
+			"nutrition": {
+				"calories": 41,
+				"fat": 0.2,
+				"carbohydrates": 10,
+				"protein": 0.9,
+				"fiber": 2.8
+			},
+			"image": "https://images.pexels.com/photos/65174/pexels-photo-65174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Pineapple",
+			"nutrition": {
+				"calories": 50,
+				"fat": 0.1,
+				"carbohydrates": 13,
+				"protein": 0.5,
+				"fiber": 1.4
+			},
+			"image": "https://images.pexels.com/photos/788758/pexels-photo-788758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Grapes",
+			"nutrition": {
+				"calories": 69,
+				"fat": 0.2,
+				"carbohydrates": 18,
+				"protein": 0.7,
+				"fiber": 0.9
+			},
+			"image": "https://images.pexels.com/photos/357742/pexels-photo-357742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Watermelon",
+			"nutrition": {
+				"calories": 30,
+				"fat": 0.2,
+				"carbohydrates": 8,
+				"protein": 0.6,
+				"fiber": 0.4
+			},
+			"image": "https://images.pexels.com/photos/3607/fruit-melon-watermelon.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Pomegranate",
+			"nutrition": {
+				"calories": 83,
+				"fat": 1.2,
+				"carbohydrates": 19,
+				"protein": 1.7,
+				"fiber": 4
+			},
+			"image": "https://images.pexels.com/photos/65256/pomegranate-open-cores-fruit-fruit-logistica-65256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Milk",
+			"nutrition": {
+				"calories": 103,
+				"fat": 2.4,
+				"carbohydrates": 12,
+				"protein": 8,
+				"fiber": 0
+			},
+			"image": "https://www.parents.com/thmb/WPyJ61t0Bnb4-ExR7N5CqXFyLEI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Grass-Fed-vs-Organic-Milk-9fff118133c14e578c2379ed86888817.jpg"
+		},
+		{
+			"name": "Cheese",
+			"nutrition": {
+				"calories": 113,
+				"fat": 9,
+				"carbohydrates": 1.4,
+				"protein": 7,
+				"fiber": 0
+			},
+			"image": "https://images.pexels.com/photos/773253/pexels-photo-773253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Yogurt",
+			"nutrition": {
+				"calories": 61,
+				"fat": 3.3,
+				"carbohydrates": 4.7,
+				"protein": 3.5,
+				"fiber": 0
+			},
+			"image": "https://bcdairy.ca/wp-content/uploads/2022/07/history-of-yogurt-feature.jpg"
+		},
+		{
+			"name": "Peanuts",
+			"nutrition": {
+				"calories": 567,
+				"fat": 49,
+				"carbohydrates": 16,
+				"protein": 26,
+				"fiber": 8.5
+			},
+			"image": "https://images.pexels.com/photos/209345/pexels-photo-209345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Potato",
+			"nutrition": {
+				"calories": 77,
+				"fat": 0.1,
+				"carbohydrates": 17,
+				"protein": 2,
+				"fiber": 2.2
+			},
+			"image": "https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Onion",
+			"nutrition": {
+				"calories": 40,
+				"fat": 0.1,
+				"carbohydrates": 9.3,
+				"protein": 1.1,
+				"fiber": 1.7
+			},
+			"image": "https://images.pexels.com/photos/144206/pexels-photo-144206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Garlic",
+			"nutrition": {
+				"calories": 149,
+				"fat": 0.5,
+				"carbohydrates": 33,
+				"protein": 6,
+				"fiber": 2.1
+			},
+			"image": "https://images.pexels.com/photos/928251/pexels-photo-928251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Ghee",
+			"nutrition": {
+				"calories": 112,
+				"fat": 12.7,
+				"carbohydrates": 0,
+				"protein": 0,
+				"fiber": 0
+			},
+			"image": "https://www.12taste.com/in/wp-content/uploads/2020/09/ghee-clarified-butter-close-up-wooden-bowl-silver-spoon-selective-focus-2-scaled.jpg"
+		},
+		{
+			"name": "Coconut",
+			"nutrition": {
+				"calories": 354,
+				"fat": 33.5,
+				"carbohydrates": 15,
+				"protein": 3.3,
+				"fiber": 9
+			},
+			"image": "https://images.pexels.com/photos/1652001/pexels-photo-1652001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Chickpeas",
+			"nutrition": {
+				"calories": 269,
+				"fat": 4.2,
+				"carbohydrates": 45,
+				"protein": 14,
+				"fiber": 12
+			},
+			"image": "https://www.inspiredtaste.net/wp-content/uploads/2022/11/How-to-Cook-Chickpeas-Recipe-Video.jpg"
+		},
+		{
+			"name": "Turmeric",
+			"nutrition": {
+				"calories": 312,
+				"fat": 3.3,
+				"carbohydrates": 67,
+				"protein": 9,
+				"fiber": 22.7
+			},
+			"image": "https://images.pexels.com/photos/6220709/pexels-photo-6220709.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Tofu",
+			"nutrition": {
+				"calories": 70,
+				"fat": 4.2,
+				"carbohydrates": 1.7,
+				"protein": 8,
+				"fiber": 0.7
+			},
+			"image": "https://images.pexels.com/photos/4518584/pexels-photo-4518584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Soy Milk",
+			"nutrition": {
+				"calories": 80,
+				"fat": 4,
+				"carbohydrates": 4,
+				"protein": 7,
+				"fiber": 1
+			},
+			"image": "https://images.pexels.com/photos/4518601/pexels-photo-4518601.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Pumpkin Seeds",
+			"nutrition": {
+				"calories": 151,
+				"fat": 13,
+				"carbohydrates": 5,
+				"protein": 7,
+				"fiber": 1.1
+			},
+			"image": "https://images.pexels.com/photos/7772003/pexels-photo-7772003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Flaxseeds",
+			"nutrition": {
+				"calories": 534,
+				"fat": 42,
+				"carbohydrates": 29,
+				"protein": 18,
+				"fiber": 27.3
+			},
+			"image": "https://www.kolorshealthcare.com/blog/wp-content/uploads/2022/12/Flax-Seeds-Weight-Loss.jpg"
+		},
+		{
+			"name": "Sunflower Seeds",
+			"nutrition": {
+				"calories": 584,
+				"fat": 51,
+				"carbohydrates": 20,
+				"protein": 21,
+				"fiber": 8.6
+			},
+			"image": "https://m.media-amazon.com/images/I/51GFsZyFM1L._SY300_SX300_QL70_FMwebp_.jpg"
+		},
+		{
+			"name": "Chia Seeds",
+			"nutrition": {
+				"calories": 486,
+				"fat": 31,
+				"carbohydrates": 44,
+				"protein": 16,
+				"fiber": 38
+			},
+			"image": "https://images.pexels.com/photos/938699/pexels-photo-938699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Hemp Seeds",
+			"nutrition": {
+				"calories": 553,
+				"fat": 49,
+				"carbohydrates": 2.6,
+				"protein": 31,
+				"fiber": 1.2
+			},
+			"image": "https://health.wordpress.clevelandclinic.org/wp-content/uploads/sites/3/2023/07/Hemp-Seeds-507146608-770x533-1.jpg"
+		},
+		{
+			"name": "Pecans",
+			"nutrition": {
+				"calories": 691,
+				"fat": 72,
+				"carbohydrates": 14,
+				"protein": 9,
+				"fiber": 10
+			},
+			"image": "https://images.pexels.com/photos/4753638/pexels-photo-4753638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Brazil Nuts",
+			"nutrition": {
+				"calories": 659,
+				"fat": 67,
+				"carbohydrates": 12,
+				"protein": 14,
+				"fiber": 8
+			},
+			"image": "https://nutexplorer.in/wp-content/uploads/2021/07/brazil_nuts.jpg"
+		},
+		{
+			"name": "Cashews",
+			"nutrition": {
+				"calories": 553,
+				"fat": 44,
+				"carbohydrates": 30,
+				"protein": 18,
+				"fiber": 3.3
+			},
+			"image": "https://static.toiimg.com/thumb/102943275.cms?width=680&height=512&imgsize=115440"
+		},
+		{
+			"name": "Hazelnuts",
+			"nutrition": {
+				"calories": 628,
+				"fat": 61,
+				"carbohydrates": 17,
+				"protein": 15,
+				"fiber": 9.7
+			},
+			"image": "https://images.pexels.com/photos/68483/hazelnuts-brown-nuts-open-68483.jpeg"
+		},
+		{
+			"name": "Walnuts",
+			"nutrition": {
+				"calories": 654,
+				"fat": 65,
+				"carbohydrates": 14,
+				"protein": 15,
+				"fiber": 6.7
+			},
+			"image": "https://images.pexels.com/photos/3640631/pexels-photo-3640631.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Dates",
+			"nutrition": {
+				"calories": 282,
+				"fat": 0.4,
+				"carbohydrates": 75,
+				"protein": 2.5,
+				"fiber": 8
+			},
+			"image": "https://images.pexels.com/photos/3993529/pexels-photo-3993529.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Figs",
+			"nutrition": {
+				"calories": 74,
+				"fat": 0.3,
+				"carbohydrates": 19,
+				"protein": 0.8,
+				"fiber": 2.9
+			},
+			"image": "https://images.pexels.com/photos/33791/fig-sliced-plate-wooden-table.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Prunes",
+			"nutrition": {
+				"calories": 240,
+				"fat": 0.7,
+				"carbohydrates": 64,
+				"protein": 2.2,
+				"fiber": 7.1
+			},
+			"image": "https://images.pexels.com/photos/12945019/pexels-photo-12945019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Apricots",
+			"nutrition": {
+				"calories": 48,
+				"fat": 0.4,
+				"carbohydrates": 12,
+				"protein": 1.4,
+				"fiber": 2.4
+			},
+			"image": "https://images.pexels.com/photos/1268122/pexels-photo-1268122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Blueberries",
+			"nutrition": {
+				"calories": 57,
+				"fat": 0.3,
+				"carbohydrates": 14,
+				"protein": 0.7,
+				"fiber": 2.4
+			},
+			"image": "https://images.pexels.com/photos/70862/pexels-photo-70862.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Blackberries",
+			"nutrition": {
+				"calories": 43,
+				"fat": 0.5,
+				"carbohydrates": 10,
+				"protein": 1.4,
+				"fiber": 5.3
+			},
+			"image": "https://images.pexels.com/photos/892808/pexels-photo-892808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Acai Berries",
+			"nutrition": {
+				"calories": 70,
+				"fat": 4,
+				"carbohydrates": 2,
+				"protein": 1,
+				"fiber": 2
+			},
+			"image": "https://specialtyproduce.com/sppics/8784.png"
+		},
+		{
+			"name": "Goji Berries",
+			"nutrition": {
+				"calories": 349,
+				"fat": 0.4,
+				"carbohydrates": 77,
+				"protein": 14,
+				"fiber": 13
+			},
+			"image": "https://static.toiimg.com/thumb/69641920.cms?width=680&height=512&imgsize=944171"
+		},
+		{
+			"name": "Cranberries",
+			"nutrition": {
+				"calories": 46,
+				"fat": 0.1,
+				"carbohydrates": 12,
+				"protein": 0.4,
+				"fiber": 4.6
+			},
+			"image": "https://images.pexels.com/photos/306800/pexels-photo-306800.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Peaches",
+			"nutrition": {
+				"calories": 39,
+				"fat": 0.3,
+				"carbohydrates": 10,
+				"protein": 0.9,
+				"fiber": 1.5
+			},
+			"image": "https://www.pittmandavis.com/images/xl/PD23-GAPeaches.webp?v=1"
+		},
+		{
+			"name": "Pears",
+			"nutrition": {
+				"calories": 57,
+				"fat": 0.1,
+				"carbohydrates": 15,
+				"protein": 0.4,
+				"fiber": 3.1
+			},
+			"image": "https://images.pexels.com/photos/175767/pexels-photo-175767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Kiwi",
+			"nutrition": {
+				"calories": 61,
+				"fat": 0.5,
+				"carbohydrates": 15,
+				"protein": 1.1,
+				"fiber": 3
+			},
+			"image": "https://images.pexels.com/photos/867349/pexels-photo-867349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Plums",
+			"nutrition": {
+				"calories": 46,
+				"fat": 0.3,
+				"carbohydrates": 12,
+				"protein": 0.7,
+				"fiber": 1.4
+			},
+			"image": "https://skinkraft.com/cdn/shop/articles/Evidence-Based_0eff67fd-86c2-400a-b4a1-7fe2d9a14db5_1024x400.jpg?v=1639470268"
+		},
+		{
+			"name": "Papaya",
+			"nutrition": {
+				"calories": 43,
+				"fat": 0.3,
+				"carbohydrates": 11,
+				"protein": 0.5,
+				"fiber": 1.7
+			},
+			"image": "https://images.pexels.com/photos/5945731/pexels-photo-5945731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Guava",
+			"nutrition": {
+				"calories": 68,
+				"fat": 0.9,
+				"carbohydrates": 14,
+				"protein": 2.6,
+				"fiber": 5.4
+			},
+			"image": "https://images.pexels.com/photos/5945796/pexels-photo-5945796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Dragon Fruit",
+			"nutrition": {
+				"calories": 60,
+				"fat": 0.4,
+				"carbohydrates": 14,
+				"protein": 1.2,
+				"fiber": 1.9
+			},
+			"image": "https://images.pexels.com/photos/162926/dragon-fruit-passion-fruit-southern-countries-exotic-162926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Mango",
+			"nutrition": {
+				"calories": 60,
+				"fat": 0.4,
+				"carbohydrates": 15,
+				"protein": 0.8,
+				"fiber": 1.6
+			},
+			"image": "https://images.pexels.com/photos/39303/mango-tropical-fruit-juicy-sweet-39303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Raisins",
+			"nutrition": {
+				"calories": 299,
+				"fat": 0.5,
+				"carbohydrates": 79,
+				"protein": 3.1,
+				"fiber": 3.7
+			},
+			"image": "https://media.istockphoto.com/id/813963034/photo/raisin-in-white-bowl.jpg?s=2048x2048&w=is&k=20&c=Mwb8s0XNzm8Evbr697rkuQK5LSOsAyX_642o8IksmlI="
+		},
+		{
+			"name": "Pistachios",
+			"nutrition": {
+				"calories": 562,
+				"fat": 45,
+				"carbohydrates": 28,
+				"protein": 21,
+				"fiber": 10
+			},
+			"image": "https://images.pexels.com/photos/52521/pistachio-nuts-pistachios-crisps-52521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Eggplant",
+			"nutrition": {
+				"calories": 25,
+				"fat": 0.2,
+				"carbohydrates": 6,
+				"protein": 1,
+				"fiber": 3
+			},
+			"image": "https://images.pexels.com/photos/2694393/pexels-photo-2694393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Asparagus",
+			"nutrition": {
+				"calories": 20,
+				"fat": 0.2,
+				"carbohydrates": 4,
+				"protein": 2.2,
+				"fiber": 2.1
+			},
+			"image": "https://images.pexels.com/photos/351679/pexels-photo-351679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Zucchini",
+			"nutrition": {
+				"calories": 17,
+				"fat": 0.3,
+				"carbohydrates": 3,
+				"protein": 1.2,
+				"fiber": 1
+			},
+			"image": "https://images.pexels.com/photos/3375263/pexels-photo-3375263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Artichoke",
+			"nutrition": {
+				"calories": 47,
+				"fat": 0.2,
+				"carbohydrates": 11,
+				"protein": 3.3,
+				"fiber": 5.4
+			},
+			"image": "https://images.pexels.com/photos/5273463/pexels-photo-5273463.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Cabbage",
+			"nutrition": {
+				"calories": 25,
+				"fat": 0.1,
+				"carbohydrates": 6,
+				"protein": 1.3,
+				"fiber": 2.5
+			},
+			"image": "https://images.pexels.com/photos/2518893/pexels-photo-2518893.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Beets",
+			"nutrition": {
+				"calories": 43,
+				"fat": 0.2,
+				"carbohydrates": 10,
+				"protein": 1.6,
+				"fiber": 2.8
+			},
+			"image": "https://images.pexels.com/photos/5502850/pexels-photo-5502850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Brussels Sprouts",
+			"nutrition": {
+				"calories": 43,
+				"fat": 0.3,
+				"carbohydrates": 9,
+				"protein": 3.4,
+				"fiber": 3.8
+			},
+			"image": "https://images.pexels.com/photos/41171/brussels-sprouts-sprouts-cabbage-grocery-41171.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Soy Sauce",
+			"nutrition": {
+				"calories": 61,
+				"fat": 0.1,
+				"carbohydrates": 3.3,
+				"protein": 6,
+				"fiber": 0.6
+			},
+			"image": "https://images.pexels.com/photos/1385185/pexels-photo-1385185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Almond Milk",
+			"nutrition": {
+				"calories": 13,
+				"fat": 0.3,
+				"carbohydrates": 0.5,
+				"protein": 0.5,
+				"fiber": 0
+			},
+			"image": "https://media.product.which.co.uk/prod/images/900_450/gm-3ab65726-3534-4c12-aee8-0b720abf9107-almond-milk.jpeg"
+		},
+		{
+			"name": "Honey",
+			"nutrition": {
+				"calories": 304,
+				"fat": 0,
+				"carbohydrates": 82,
+				"protein": 0.3,
+				"fiber": 0.2
+			},
+			"image": "https://images.pexels.com/photos/33260/honey-sweet-syrup-organic.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+		},
+		{
+			"name": "Maple Syrup",
+			"nutrition": {
+				"calories": 260,
+				"fat": 0,
+				"carbohydrates": 67,
+				"protein": 0,
+				"fiber": 0
+			},
+			"image": "https://www.allrecipes.com/thmb/gUEGZeKigSEdyVWAbbXb2BSWydo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/152002_homemademaplesyrup_ddmfs_3x4_2639-3d749bab68994949abef4882cecdeafd.jpg"
+		}
+	]
+}
