@@ -26,11 +26,10 @@ const Navbar = () => {
                 <Link className="nav-link" to="/food">Foods</Link>
               </li>
               <li className="nav-item">
-<<<<<<< HEAD
-                <Link className="nav-link" to="/pushup">FitTest</Link>
-=======
                 <Link className="nav-link" to="/disease">Disease</Link>
->>>>>>> d98c0ee979ade2912049bdb30230061c67e7000b
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/pushup">FitTest</Link>
               </li>
 
             </ul>
