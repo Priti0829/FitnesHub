@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Foods from "./nutritionPage/Foods";
+import DiseaseMain from './DiseaseMain';
 
 const App = () => (
   <div>
@@ -15,6 +16,7 @@ const App = () => (
       <Route path="/" element={<Home />} />
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
       <Route path="/food" element={<Foods />} />
+      <Route path ="/disease" element ={<DiseaseMain/>}/>
     </Routes>
     <Footer />
   </div>
