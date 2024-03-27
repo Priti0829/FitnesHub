@@ -7,7 +7,11 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Foods from "./nutritionPage/Foods";
+<<<<<<< HEAD
 import PushUp from './components/PushUp';
+=======
+import DiseaseMain from './DiseaseMain';
+>>>>>>> d98c0ee979ade2912049bdb30230061c67e7000b
 
 const App = () => (
   <div>
@@ -16,7 +20,11 @@ const App = () => (
       <Route path="/" element={<Home />} />
       <Route path="/exercise/:id" element={<ExerciseDetail />} />
       <Route path="/food" element={<Foods />} />
+<<<<<<< HEAD
       <Route path="/pushup" element={<PushUp />} />
+=======
+      <Route path ="/disease" element ={<DiseaseMain/>}/>
+>>>>>>> d98c0ee979ade2912049bdb30230061c67e7000b
     </Routes>
     <Footer />
   </div>
