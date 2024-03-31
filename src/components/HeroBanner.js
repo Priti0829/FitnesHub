@@ -3,10 +3,9 @@ import React from "react";
 import HeroBannerImage from "../assets/images/banner.png";
 
 const HeroBanner = () => (
-  <div
+  <div className="Hero-banner "
     style={{
       marginTop: "70px",
-      marginLeft: "50px",
       position: "relative",
       padding: "20px",
     }}
@@ -48,16 +47,7 @@ const HeroBanner = () => (
         Explore Exercises
       </a>
     </div>
-    <div
-      style={{
-        fontWeight: 600,
-        color: "#FF2625",
-        opacity: "0.1",
-        display: "block",
-        fontSize: "200px",
-        marginTop: "20px",
-      }}
-    >
+    <div className="container hero-font" >
       Exercise
     </div>
     <img

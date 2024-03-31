@@ -40,7 +40,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   // if (!currentExercises.length) return <Loader />;
 
   return (
-    <div id="exercises" style={{ marginTop: "50px", padding: "20px" }}>
+    <div className="container" id="exercises" style={{ marginTop: "50px", padding: "20px" }}>
       <div
         style={{ fontSize: "39px", fontWeight: "bold", marginBottom: "46px" }}
       >
