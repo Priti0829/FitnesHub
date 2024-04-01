@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { exerciseOptions, fetchData } from "../utils/fetchData";
 import ExerciseCard from "./ExerciseCard";
-import Loader from "./Loader";
+// import Loader from "./Loader";
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
   // console.log(exercises);
