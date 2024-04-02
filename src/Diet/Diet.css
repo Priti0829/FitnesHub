@@ -4,10 +4,10 @@
   }
   
   form {
-    display: inline-block;
-    padding: 50px;
+    display: center;
+    padding: 20px;
     border: 2px solid #ccc;
-    border-radius: 10px;
+    border-radius: 5px;
   }
   
   label {
@@ -20,14 +20,17 @@
   }
   
   button {
-    margin-top: 10px;
-    padding: 10px 20px;
+    display: flex;
+  flex-direction: column; /* align items vertically */
+  align-items: center; 
+    margin-top: 8px;
+    padding: 8px 10px;
     background-color: #007bff;
-    color: #ff/* Diet.css */
-
+    color: #ffff;
+  }
     .Diet {
       font-family: Arial, sans-serif;
-      max-width: 600px;
+      max-width: 800px;
       margin: 0 auto;
       padding: 20px;
       border: 1px solid #ccc;
@@ -50,7 +53,7 @@
     }
     
     .Diet textarea {
-      height: 100px;
+      height: 150px;
     }
     
     .Diet button[type="submit"] {
@@ -71,11 +74,11 @@
       width: 100%;
       padding: 8px;
       margin-top: 10px;
-      box-sizing: border-box;
+      /*box-sizing: border-box;
+      */
       border: 1px solid #ccc;
       border-radius: 4px;
-    }
-    f;
+    
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -92,7 +95,7 @@
   }
   
   .generated-text {
-    font-size: 40px; 
-    margin-top: 50px;
+    font-size: 15px; 
+    margin-top: 25px;
   }
   
