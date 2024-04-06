@@ -10,7 +10,7 @@ const Home = () => {
 
   console.log(bodyPart);
   return (
-    <div>
+    <div className=' '>
       <HeroBanner />
       <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
       <Exercises exercises={exercises} setExercises={setExercises} bodyPart={bodyPart} />

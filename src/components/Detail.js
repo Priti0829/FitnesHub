@@ -22,7 +22,7 @@ const Detail = ({ exerciseDetail }) => {
   ];
 
   return (
-    <div
+    <div className="detail-exercise"
       style={{
         display: "flex",
         // flexDirection: "column",
