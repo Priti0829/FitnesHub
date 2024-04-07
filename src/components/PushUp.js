@@ -19,7 +19,7 @@ function PushUp() {
 	// }, []);
 
 	return (
-		<div style={{ backgroundColor: "black", color: "white" }}>
+		<div style={{ backgroundColor: "black", color: "white", height: "" }}>
 			<div className='container p-3'>
 				<h1 className='text-center mb-3 '>Pose Detection with Feedback</h1>
 				<div className="img-box" style={{}}>
