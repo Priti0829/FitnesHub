@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Foods from "./nutritionPage/Foods";
 import PushUp from './components/PushUp';
 import DiseaseMain from './DiseaseMain';
+import Diet from "./Diet/Diet";
 
 const App = () => (
   <div>
@@ -19,6 +20,7 @@ const App = () => (
       <Route path="/food" element={<Foods />} />
       <Route path="/pushup" element={<PushUp />} />
       <Route path ="/disease" element ={<DiseaseMain/>}/>
+      <Route path ="/diet" element ={<Diet/>}/>
     </Routes>
     <Footer />
   </div>

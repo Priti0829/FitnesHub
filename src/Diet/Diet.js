@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+import './Diet.css';
 function Diet() {
   const [name, setName] = useState('');
   const [city, setCity] = useState('');

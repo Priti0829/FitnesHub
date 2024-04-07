@@ -23,7 +23,8 @@
     margin-top: 10px;
     padding: 10px 20px;
     background-color: #007bff;
-    color: #ff/* Diet.css */
+    color: #ffff/* Diet.css */
+  }
 
     .Diet {
       font-family: Arial, sans-serif;
@@ -74,8 +75,7 @@
       box-sizing: border-box;
       border: 1px solid #ccc;
       border-radius: 4px;
-    }
-    f;
+    
     border: none;
     border-radius: 5px;
     cursor: pointer;
