@@ -10,6 +10,8 @@ import Foods from "./nutritionPage/Foods";
 import PushUp from './components/PushUp';
 import DiseaseMain from './DiseaseMain';
 import Diet from './diet/Diet';
+//import Chat from './chats/Chat'; 
+
 const App = () => (
   <div>
     <Navbar />
@@ -26,3 +28,4 @@ const App = () => (
 );
 
 export default App;
+//pm <Route path ="/chatbotcomponents" element ={<ChatbotComponent/>}></Route>
