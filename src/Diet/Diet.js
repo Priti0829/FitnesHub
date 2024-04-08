@@ -5,7 +5,7 @@ function Diet() {
   const [name, setName] = useState('');
   const [city, setCity] = useState('');
   const [age, setAge] = useState('');
-  const [height,setHeight] = useState('');
+  const [height, setHeight] = useState('');
   const [diseaseInfo, setDiseaseInfo] = useState('');
   const [sugar, setSugar] = useState('');
   const [dietPlan, setDietPlan] = useState('');
@@ -26,7 +26,7 @@ function Diet() {
   const handleDiseaseInfoChange = (event) => {
     setDiseaseInfo(event.target.value);
   };
-  
+
   /*const handleChange = (event) => {
     setSugar(event.target.value);
   };
@@ -35,8 +35,8 @@ function Diet() {
   const handleSugarChange = (event) => {
     setSugar(event.target.value);
   };
- 
-  
+
+
   const handleHeightChange = (event) => {
     setHeight(event.target.value);
   };
@@ -79,7 +79,7 @@ Trail mix with nuts and dried fruits
 
 It's important for teenagers to have a balanced diet that includes a variety of foods from all food groups, including fruits, vegetables, whole grains, lean proteins, and healthy fats. Additionally, staying hydrated by drinking plenty of water throughout the day is essential for overall health. This diet plan provides a good balance of nutrients and can be adjusted based on individual preferences and dietary restrictions.`;
     } else if (age > 18 && age <= 30) {
-      generatedDietPlan =  `
+      generatedDietPlan = `
       Breakfast:
 Whole grain toast with avocado spread
 Scrambled eggs or tofu scramble
@@ -143,7 +143,7 @@ Dark chocolate squares or a small handful of almonds;`
       Whole grain cereal with milk
       Air-popped popcorn seasoned with herbs and spices
       ;`
-    } else if(age>45 && age<=60){
+    } else if (age > 45 && age <= 60) {
       generatedDietPlan = `Breakfast:
      Whole grain toast with mashed avocado and sliced tomatoes
       Poached eggs or egg whites
@@ -178,8 +178,8 @@ Dark chocolate squares or a small handful of almonds;`
       
       `
     }
-    else if(age>60 && age<=75){
-      generatedDietPlan=`
+    else if (age > 60 && age <= 75) {
+      generatedDietPlan = `
       Breakfast:
       Whole grain oatmeal with chopped nuts and dried fruit
       Low-fat or skim milk
@@ -211,7 +211,7 @@ Dark chocolate squares or a small handful of almonds;`
       
       `
     }
-    else if(age>=75){
+    else if (age >= 75) {
       generatedDietPlan = `
       Breakfast:
       Cooked oatmeal with mashed banana and a sprinkle of cinnamon
@@ -247,14 +247,14 @@ Dark chocolate squares or a small handful of almonds;`
     }
 
     // ic for generating diet plan based on sugar level
-  /*  if (Sugar === 'low') {
-      generatedDietPlan += " with low sugar intake";
-    } else if (Sugar === 'normal') {
-      generatedDietPlan += " with normal sugar intake";
-    } else if (Sugar=== 'high') {
-      generatedDietPlan += " with high sugar intake";
-    }
-*/
+    /*  if (Sugar === 'low') {
+        generatedDietPlan += " with low sugar intake";
+      } else if (Sugar === 'normal') {
+        generatedDietPlan += " with normal sugar intake";
+      } else if (Sugar=== 'high') {
+        generatedDietPlan += " with high sugar intake";
+      }
+  */
     setDietPlan(generatedDietPlan);
   };
 
@@ -266,57 +266,61 @@ Dark chocolate squares or a small handful of almonds;`
   };
 */
   return (
-    <div className="Diet">
-      <form onSubmit={handleGenerate}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <br />
-          <input type="text" id="name" name="name" value={name} onChange={handleNameChange} />
-        </div>
-        <br />
-        <div>
-          <label htmlFor="city">City:</label>
-          <br />
-          <input type="text" id="city" name="city" value={city} onChange={handleCityChange} />
-        </div>
-        <br />
-        <div>
-          <label htmlFor="age">Age:</label>
-          <br />
-          <input type="number" id="age" name="age" min="0" max="100" value={age} onChange={handleAgeChange} />
-        </div>
-        <br />
-        <div>
-          <label htmlFor="height">Height</label>
-          <br />
-          <input type="text" id="height" name="height" value={height} onChange={handleHeightChange} />
-        </div>
-        <br />
-        <div>
-          <label htmlFor="diseaseInfo">Disease Information:</label>
-          <br />
-          <textarea id="diseaseInfo" name="diseaseInfo" rows="4" value={diseaseInfo} onChange={handleDiseaseInfoChange}></textarea>
-        </div>
-        <br />
-        <div>
-          <label htmlFor="sugar">Sugar Level:</label>
-          <br />
-          <input type="text" id="sugar" name="sugar" value={sugar} onChange={handleSugarChange} />
-        </div>
-        <br />
-        {/*Generate button */}
-        <button type="button" onClick={handleGenerate}>Generate</button>
-      </form>
+    <div >
+      <div className="container Diet">
+        <h2 className='text-center'>Diet of your choice</h2>
+        <form onSubmit={handleGenerate}>
+          <div>
 
-      {dietPlan && (
-        <div className="generated-text">
-          <form>
-            <label>Diet Plan:</label>
+            <label htmlFor="name">Name:</label>
             <br />
-            <textarea rows="25" cols="60" readOnly value={dietPlan}></textarea>
-          </form>
-        </div>
-      )}
+            <input type="text" id="name" name="name" value={name} onChange={handleNameChange} />
+          </div>
+          <br />
+          <div>
+            <label htmlFor="city">City:</label>
+            <br />
+            <input type="text" id="city" name="city" value={city} onChange={handleCityChange} />
+          </div>
+          <br />
+          <div>
+            <label htmlFor="age">Age:</label>
+            <br />
+            <input type="number" id="age" name="age" min="0" max="100" value={age} onChange={handleAgeChange} />
+          </div>
+          <br />
+          <div>
+            <label htmlFor="height">Height</label>
+            <br />
+            <input type="text" id="height" name="height" value={height} onChange={handleHeightChange} />
+          </div>
+          <br />
+          <div>
+            <label htmlFor="diseaseInfo">Disease Information:</label>
+            <br />
+            <textarea id="diseaseInfo" name="diseaseInfo" rows="4" value={diseaseInfo} onChange={handleDiseaseInfoChange}></textarea>
+          </div>
+          <br />
+          <div>
+            <label htmlFor="sugar">Sugar Level:</label>
+            <br />
+            <input type="text" id="sugar" name="sugar" value={sugar} onChange={handleSugarChange} />
+          </div>
+          <br />
+          {/*Generate button */}
+          <button type="button" className="btn btn-primary" onClick={handleGenerate} style={{ width: "100%" }}>Generate</button>
+        </form>
+
+        {dietPlan && (
+          <div className="generated-text">
+            <form>
+              <label>Diet Plan:</label>
+              <br />
+              <textarea rows="60" cols="60" readOnly value={dietPlan}></textarea>
+            </form>
+          </div>
+        )}
+      </div>
     </div>
   );
 }

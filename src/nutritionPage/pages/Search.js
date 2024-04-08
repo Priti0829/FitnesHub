@@ -11,7 +11,7 @@ const Search = (props) => {
 	return (
 		<div className="container search-display">
 			<div class="InputContainer">
-				<input placeholder="Search.." id="input" class="input" name="text" type="text" onChange={onChange} />
+				<input placeholder="Search.." id="input" class="input1" name="text" type="text" onChange={onChange} />
 			</div>
 		</div>
 	)
