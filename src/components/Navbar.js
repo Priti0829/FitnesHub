@@ -39,16 +39,14 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/diet">Diet</Link>
               </li>
-<<<<<<< HEAD
               <li className="nav-item">
                 <Link className="nav-link" to="/doctor">Doctor</Link>
-=======
+              </li>
               <li className=' nav-item '>
                 {
 
                   localStorage.getItem('auth-token') ? <Link className='nav-link btn' to="/login" onClick={handleLogout} >  Logout</Link> : <Link className='nav-link btn' to="/login" > Login</Link>
                 }
->>>>>>> 49662127d0d6a9f89b1a73a873273141f2c528ef
               </li>
 
             </ul>
