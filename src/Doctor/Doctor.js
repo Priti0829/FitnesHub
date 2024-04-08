@@ -101,7 +101,7 @@ const Doctor = () => {
               phoneNumber="987-789-9988"
             />
             <DoctorCard
-              img={profile5}
+               img={profile5}
               name="Dr. Mahendra Mukherjee"
               title="Neurologists"
               stars="4.8"
@@ -109,7 +109,7 @@ const Doctor = () => {
               phoneNumber="654-456-6655"
             />
             <DoctorCard
-              img={profile6}
+               img={profile6}
               name="Dr. Dhanshree Joshi"
               title="physiotherapist"
               stars="4.7"
@@ -125,7 +125,7 @@ const Doctor = () => {
               phoneNumber="678-980-8888"
             />
             <DoctorCard
-              img={profile8}
+               img={profile8}
               name="Dr. Puneet Girdhar"
               title="Cardiologists"
               stars="4.9"
