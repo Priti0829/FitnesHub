@@ -1,8 +1,13 @@
 import React from 'react';
 import Logo from '../assets/images/Logo.png';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    localStorage.removeItem('auth-token');
+    navigate('/');
+  }
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -34,8 +39,16 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link className="nav-link" to="/diet">Diet</Link>
               </li>
+<<<<<<< HEAD
               <li className="nav-item">
                 <Link className="nav-link" to="/doctor">Doctor</Link>
+=======
+              <li className=' nav-item '>
+                {
+
+                  localStorage.getItem('auth-token') ? <Link className='nav-link btn' to="/login" onClick={handleLogout} >  Logout</Link> : <Link className='nav-link btn' to="/login" > Login</Link>
+                }
+>>>>>>> 49662127d0d6a9f89b1a73a873273141f2c528ef
               </li>
 
             </ul>

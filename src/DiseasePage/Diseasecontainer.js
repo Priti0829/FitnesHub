@@ -4,26 +4,26 @@ import DiseaseData from './DiseaseData';
 // import "./DiseaseMain.css";
 
 const DiseaseContainer = () => {
-  const [jsonData, setJsonData] = useState(null);
+  // const [jsonData, setJsonData] = useState(null);
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
 
-  const fetchData = async () => {
-    try {
-      const response = await fetch('/Components/DiseaseData.json');
-      const data = await response.json();
-      setJsonData(data);
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  };
+  // const fetchData = async () => {
+  //   try {
+  //     const response = await fetch('/Components/DiseaseData.json');
+  //     const data = await response.json();
+  //     setJsonData(data);
+  //   } catch (error) {
+  //     console.error('Error fetching data:', error);
+  //   }
+  // };
 
   return (
     <div>
-      <Disease />
-      <DiseaseData jsonData={jsonData} />
+      {/* <Disease />
+      <DiseaseData /> */}
     </div>
   );
 };
