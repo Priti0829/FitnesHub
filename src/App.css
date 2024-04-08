@@ -104,6 +104,14 @@ body {
   text-decoration: none;
 }
 
+.hero-font {
+  font-weight: 600;
+  color: #FF2625;
+  opacity: 0.1;
+  font-size: 200px;
+  margin-top: 20px;
+}
+
 
 @media screen and (max-width: 1200px) {
   .detail-image {
@@ -131,6 +139,30 @@ body {
   .exercise-video {
     width: 320px;
     height: 300px;
+  }
+}
+
+@media (max-width:783px) {
+  .hero-font {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width:600px) {
+  .detail-exercise {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:497px) {
+  .hero-font {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width:384px) {
+  .hero-font {
+    font-size: 4rem;
   }
 }
 

@@ -8,12 +8,12 @@ const ExerciseCard = ({ exercise }) => {
       to={`/exercise/${exercise.id}`}
       style={{ textDecoration: "none", color: "inherit" }}
     >
-      <div className="exercise-card my-3" style={{ position: "relative" }}>
+      <div className="card my-3" style={{ position: "relative" }}>
         <img
           src={exercise.gifUrl}
           alt={exercise.name}
           loading="lazy"
-          style={{ width: "100%", borderRadius: "10px" }}
+          style={{ borderRadius: "10px" }}
         />
         <div
           style={{

@@ -9,7 +9,7 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
       <div style={{ fontSize: '44px', fontWeight: 700, color: '#000', marginBottom: '33px' }}>
         Watch <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>{name}</span> exercise videos
       </div>
-      <div style={{ display: 'flex', flexDirection: 'row', gap: '0px', flexWrap: 'wrap', alignItems: 'center' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', gap: '20px', flexWrap: 'wrap', alignItems: 'center', justifyContent: "center" }}>
         {exerciseVideos.slice(0, 3).map((item, index) => (
           <a
             key={index}
