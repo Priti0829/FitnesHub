@@ -4,10 +4,10 @@ import profile1 from "../assets/images/profile-1.png";
 import profile2 from "../assets/images/profile-2.png";
 import profile3 from "../assets/images/profile-3.png";
 import profile4 from "../assets/images/profile-4.png";
-import profile5 from "../assets/images/profile-5.png";
-import profile6 from "../assets/images/profile-6.png";
-import profile7 from "../assets/images/profile-7.png";
-import profile8 from "../assets/images/profile-8.png";
+// import profile5 from "../assets/images/profile-5.png";
+// import profile6 from "../assets/images/profile-6.png";
+// import profile7 from "../assets/images/profile-7.png";
+// import profile8 from "../assets/images/";
 import DoctorCard from "../Doctor/DoctorCard";
 import "./Doctor.css";
 
@@ -101,7 +101,7 @@ const Doctor = () => {
               phoneNumber="987-789-9988"
             />
             <DoctorCard
-              img={profile5}
+              // img={profile5}
               name="Dr. Mahendra Mukherjee"
               title="Neurologists"
               stars="4.8"
@@ -109,7 +109,7 @@ const Doctor = () => {
               phoneNumber="654-456-6655"
             />
             <DoctorCard
-              img={profile6}
+              // img={profile6}
               name="Dr. Dhanshree Joshi"
               title="physiotherapist"
               stars="4.7"
@@ -117,7 +117,7 @@ const Doctor = () => {
               phoneNumber="321-123-3322"
             />
             <DoctorCard
-              img={profile7}
+              // img={profile7}
               name="Dr. Suzanne Holroyd"
               title="Pulmonologists"
               stars="4.5"
@@ -125,7 +125,7 @@ const Doctor = () => {
               phoneNumber="678-980-8888"
             />
             <DoctorCard
-              img={profile8}
+              // img={profile8}
               name="Dr. Puneet Girdhar"
               title="Cardiologists"
               stars="4.9"

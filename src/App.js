@@ -11,6 +11,7 @@ import PushUp from './components/PushUp';
 import DiseaseMain from './DiseaseMain';
 import Diet from './Diet/Diet';
 import LoginSignup from './pages/login/LoginSignup';
+import Doctor from './Doctor/Doctor';
 //import Chat from './chats/Chat'; 
 
 const App = () => (
@@ -23,6 +24,7 @@ const App = () => (
       <Route path="/pushup" element={<PushUp />} />
       <Route path="/disease" element={<DiseaseMain />} />
       <Route path="/diet" element={<Diet />} />
+      <Route path="/doctors" element={<Doctor />} />
       <Route path="/login" element={<LoginSignup />} />
     </Routes>
     <Footer />

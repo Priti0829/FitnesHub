@@ -6,11 +6,7 @@
 form {
   display: center;
   padding: 20px;
-<<<<<<< HEAD
   border: 2px solid #ccc;
-=======
-  /* border: 2px solid #ccc; */
->>>>>>> 49662127d0d6a9f89b1a73a873273141f2c528ef
   border-radius: 5px;
 }
 
@@ -25,29 +21,18 @@ input[type="range"] {
 
 button {
   display: flex;
-<<<<<<< HEAD
-  flex-direction: column; /* align items vertically */
-=======
   flex-direction: column;
   /* align items vertically */
->>>>>>> 49662127d0d6a9f89b1a73a873273141f2c528ef
   align-items: center;
   margin-top: 8px;
   padding: 8px 10px;
   background-color: #007bff;
-<<<<<<< HEAD
-=======
   color: #ffff;
->>>>>>> 49662127d0d6a9f89b1a73a873273141f2c528ef
 }
 
 .Diet {
   font-family: Arial, sans-serif;
-<<<<<<< HEAD
-  max-width: 800px;
-=======
   /* max-width: 800px; */
->>>>>>> 49662127d0d6a9f89b1a73a873273141f2c528ef
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -74,11 +59,7 @@ button {
 }
 
 .Diet button[type="submit"] {
-<<<<<<< HEAD
-  background-color: #4caf50;
-=======
   background-color: #4CAF50;
->>>>>>> 49662127d0d6a9f89b1a73a873273141f2c528ef
   color: white;
   padding: 10px 20px;
   margin-top: 10px;
@@ -118,8 +99,4 @@ output {
 .generated-text {
   font-size: 15px;
   margin-top: 25px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 49662127d0d6a9f89b1a73a873273141f2c528ef
