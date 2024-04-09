@@ -6,15 +6,15 @@ const DiseaseData = require('../models/DiseaseData');
 router.post('/adddisease', async (req, res) => {
 	try {
 		const { name, description, remedies, exercises, foods_to_eat } = req.body;
-		const remediesArray = remedies.split("\n").map(remedy => remedy.trim()); // Split the string by newline characters and remove leading/trailing spaces
-		const exercisesArray = exercises.split("\n").map(remedy => remedy.trim());
-		const foods_to_eatArray = foods_to_eat.split("\n").map(remedy => remedy.trim());
+		// const remediesArray = remedies.split("\n").map(remedy => remedy.trim()); // Split the string by newline characters and remove leading/trailing spaces
+		// const exercisesArray = exercises.split("\n").map(remedy => remedy.trim());
+		// const foods_to_eatArray = foods_to_eat.split("\n").map(remedy => remedy.trim());
 		const diseaseInfo = new DiseaseData({
 			name: name,
 			description: description,
-			remedies: remediesArray,
-			exercises: exercisesArray,
-			foods_to_eat: foods_to_eatArray
+			remedies: remedies,
+			exercises: exercises,
+			foods_to_eat: foods_to_eat
 		});
 		const saveDisease = await diseaseInfo.save();
 		res.json({ success: 1, saveDisease });

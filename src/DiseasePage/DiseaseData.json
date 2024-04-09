@@ -1,625 +1,625 @@
 {
-    "diseases": [
-      {
-        "name": "Heart Disease",
-        "description": "Heart disease refers to conditions that involve narrowed or blocked blood vessels that can lead to heart attack, chest pain (angina), or stroke.",
-        "remedies": [
-          "Adopting a healthy diet low in saturated fat, cholesterol, and sodium.",
-          "Quitting smoking and avoiding secondhand smoke.",
-          "Managing stress through relaxation techniques like meditation or deep breathing.",
-          "Taking prescribed medications as directed by a healthcare provider."
-        ],
-        "exercises": [
-          "Walking",
-          "Swimming",
-          "Cycling",
-          "Aerobics"
-        ],
-        "foods_to_eat": [
-          "Fruits (e.g., berries, citrus fruits)",
-          "Vegetables (e.g., leafy greens, broccoli)",
-          "Whole grains (e.g., oats, quinoa)",
-          "Lean proteins (e.g., fish, chicken)",
-          "Nuts and seeds (e.g., almonds, flaxseeds)"
-        ]
-      },
-      {
-        "name": "Type 2 Diabetes",
-        "description": "Type 2 diabetes is a chronic condition that affects the way your body metabolizes sugar (glucose), leading to high blood sugar levels.",
-        "remedies": [
-          "Following a balanced diet that includes plenty of fruits, vegetables, and whole grains.",
-          "Monitoring blood sugar levels regularly and adjusting medications as needed.",
-          "Engaging in regular physical activity to improve insulin sensitivity.",
-          "Maintaining a healthy weight through diet and exercise."
-        ],
-        "exercises": [
-          "Brisk walking",
-          "Jogging/Running",
-          "Strength training",
-          "Yoga/Pilates"
-        ],
-        "foods_to_eat": [
-          "Non-starchy vegetables (e.g., spinach, broccoli)",
-          "Whole grains (e.g., brown rice, quinoa)",
-          "Lean proteins (e.g., chicken, fish)",
-          "Healthy fats (e.g., avocado, olive oil)",
-          "Fruits (e.g., berries, apples)"
-        ]
-      },
-      {
-        "name": "Obesity",
-        "description": "Obesity is a medical condition characterized by excessive accumulation of body fat, which increases the risk of various diseases and health problems.",
-        "remedies": [
-          "Eating a balanced diet with reduced calorie intake.",
-          "Increasing physical activity levels to burn calories and improve overall health.",
-          "Seeking support from healthcare professionals or support groups for weight management.",
-          "Considering weight loss medications or bariatric surgery in severe cases."
-        ],
-        "exercises": [
-          "High-intensity interval training (HIIT)",
-          "Circuit training",
-          "Dance fitness",
-          "Hiking"
-        ],
-        "foods_to_eat": [
-          "High-fiber foods (e.g., beans, lentils)",
-          "Lean proteins (e.g., chicken breast, tofu)",
-          "Vegetables (e.g., broccoli, spinach)",
-          "Whole grains (e.g., quinoa, oats)",
-          "Fruits (e.g., berries, apples)"
-        ]
-      },
-      {
-        "name": "Osteoporosis",
-        "description": "Osteoporosis is a bone disease that occurs when the body loses too much bone mass, makes too little bone, or both, leading to weak and brittle bones.",
-        "remedies": [
-          "Ensuring an adequate intake of calcium and vitamin D through diet and supplements.",
-          "Engaging in weight-bearing exercises to strengthen bones and improve balance.",
-          "Avoiding smoking and excessive alcohol consumption, which can contribute to bone loss.",
-          "Taking prescribed medications to prevent further bone loss or promote bone formation."
-        ],
-        "exercises": [
-          "Weight-bearing exercises (e.g., walking, hiking)",
-          "Resistance training (e.g., lifting weights)",
-          "Tai Chi",
-          "Yoga"
-        ],
-        "foods_to_eat": [
-          "Dairy products (e.g., milk, yogurt)",
-          "Leafy greens (e.g., kale, collard greens)",
-          "Soy products (e.g., tofu, soy milk)",
-          "Fish with bones (e.g., canned salmon, sardines)",
-          "Fortified foods (e.g., fortified orange juice, breakfast cereals)"
-        ]
-      },
-      {
-        "name": "Stroke",
-        "description": "A stroke occurs when blood supply to part of the brain is interrupted or reduced, depriving brain tissue of oxygen and nutrients, causing brain cells to die.",
-        "remedies": [
-          "Rehabilitation therapy to regain lost skills and learn new ones.",
-          "Medications to prevent and treat complications such as blood thinners to reduce the risk of blood clots.",
-          "Making lifestyle changes to manage risk factors such as high blood pressure, diabetes, and high cholesterol.",
-          "Surgery or procedures to treat underlying conditions or prevent future strokes."
-        ],
-        "exercises": [
-          "Walking",
-          "Swimming",
-          "Cycling",
-          "Chair exercises"
-        ],
-        "foods_to_eat": [
-          "Fatty fish (e.g., salmon, mackerel)",
-          "Leafy greens (e.g., spinach, kale)",
-          "Berries (e.g., blueberries, strawberries)",
-          "Nuts and seeds (e.g., almonds, flaxseeds)",
-          "Whole grains (e.g., oats, quinoa)"
-        ]
-      },
-      {
-        "name": "Alzheimer's Disease",
-        "description": "Alzheimer's disease is a progressive disorder that causes brain cells to degenerate and die, leading to a decline in memory, thinking, and other cognitive functions.",
-        "remedies": [
-          "Taking medications prescribed by a healthcare provider to manage symptoms.",
-          "Participating in cognitive stimulation activities to maintain mental function.",
-          "Engaging in physical exercise to improve mood, sleep, and overall well-being.",
-          "Seeking support from caregivers, support groups, or Alzheimer's associations."
-        ],
-        "exercises": [
-          "Walking",
-          "Swimming",
-          "Tai Chi",
-          "Chair exercises"
-        ],
-        "foods_to_eat": [
-          "Fatty fish (e.g., salmon, trout)",
-          "Leafy greens (e.g., spinach, kale)",
-          "Berries (e.g., blueberries, strawberries)",
-          "Nuts and seeds (e.g., walnuts, chia seeds)",
-          "Whole grains (e.g., quinoa, brown rice)"
-        ]
-      },
-      {
-        "name": "Asthma",
-        "description": "Asthma is a chronic inflammatory disease of the airways that causes recurrent episodes of wheezing, breathlessness, chest tightness, and coughing.",
-        "remedies": [
-          "Using a prescribed inhaler to deliver medications that help open airways during an asthma attack.",
-          "Identifying and avoiding triggers such as allergens or irritants.",
-          "Following an asthma action plan provided by a healthcare provider to manage symptoms.",
-          "Using allergy medications or immunotherapy to reduce sensitivity to triggers."
-        ],
-        "exercises": [
-          "Walking",
-          "Swimming",
-          "Cycling",
-          "Yoga"
-        ],
-        "foods_to_eat": [
-          "Omega-3-rich foods (e.g., salmon, walnuts)",
-          "Fruits and vegetables high in antioxidants (e.g., oranges, tomatoes)",
-          "Magnesium-rich foods (e.g., spinach, almonds)",
-          "Whole grains (e.g., oats, quinoa)",
-          "Vitamin D-rich foods (e.g., fortified milk, eggs)"
-        ]
-      },
-      {
-        "name": "Chronic Kidney Disease",
-        "description": "Chronic kidney disease (CKD) is a condition in which your kidneys are damaged and can't filter blood properly, leading to waste buildup in the body.",
-        "remedies": [
-          "Managing underlying conditions such as diabetes or high blood pressure.",
-          "Following a kidney-friendly diet low in sodium, potassium, and phosphorus.",
-          "Taking medications as prescribed to control symptoms and slow the progression of the disease.",
-          "Undergoing dialysis or kidney transplant in advanced stages of CKD."
-        ],
-        "exercises": [
-          "Walking",
-          "Cycling",
-          "Swimming",
-          "Strength training"
-        ],
-        "foods_to_eat": [
-          "Low-phosphorus foods (e.g., apples, cucumbers)",
-          "Low-potassium fruits (e.g., apples, berries)",
-          "Low-sodium foods (e.g., fresh vegetables, rice)",
-          "Lean proteins (e.g., chicken, fish)",
-          "Healthy fats (e.g., olive oil, avocado)"
-        ]
-      },
-      {
-        "name": "Liver Disease",
-        "description": "Liver disease refers to any disorder that causes damage to the liver, ranging from fatty liver disease to cirrhosis and liver cancer.",
-        "remedies": [
-          "Abstaining from alcohol and avoiding medications that may harm the liver.",
-          "Following a balanced diet low in saturated fats and refined sugars.",
-          "Taking prescribed medications to manage symptoms or slow the progression of the disease.",
-          "Considering liver transplantation in severe cases of liver failure."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Tai Chi",
-          "Pilates"
-        ],
-        "foods_to_eat": [
-          "Fruits and vegetables high in antioxidants (e.g., berries, spinach)",
-          "Lean proteins (e.g., chicken, fish)",
-          "Whole grains (e.g., brown rice, quinoa)",
-          "Healthy fats (e.g., olive oil, avocado)",
-          "Low-sodium foods (e.g., fresh vegetables, unsalted nuts)"
-        ]
-      },
-      {
-        "name": "HIV/AIDS",
-        "description": "HIV/AIDS is a virus that attacks the body's immune system, making it difficult to fight off infections and other diseases.",
-        "remedies": [
-          "Adhering to antiretroviral therapy (ART) to suppress viral load and prevent disease progression.",
-          "Practicing safer sex and using condoms to reduce the risk of transmitting HIV to others.",
-          "Seeking mental health support to cope with the emotional impact of HIV/AIDS.",
-          "Engaging in regular medical care and monitoring for complications."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Swimming",
-          "Tai Chi"
-        ],
-        "foods_to_eat": [
-          "Lean proteins (e.g., chicken, fish)",
-          "Whole grains (e.g., brown rice, quinoa)",
-          "Fruits and vegetables high in antioxidants (e.g., berries, spinach)",
-          "Healthy fats (e.g., avocados, nuts)",
-          "Probiotic-rich foods (e.g., yogurt, kefir)"
-        ]
-      },
-      {
-        "name": "Rheumatoid Arthritis",
-        "description": "Rheumatoid arthritis is an autoimmune disorder that causes chronic inflammation of the joints and other areas of the body.",
-        "remedies": [
-          "Taking disease-modifying antirheumatic drugs (DMARDs) to slow the progression of the disease.",
-          "Using nonsteroidal anti-inflammatory drugs (NSAIDs) or corticosteroids to reduce pain and inflammation.",
-          "Participating in physical therapy to learn exercises and techniques to improve joint function.",
-          "Considering surgical options such as joint replacement in severe cases."
-        ],
-        "exercises": [
-          "Tai Chi",
-          "Yoga",
-          "Pilates",
-          "Swimming"
-        ],
-        "foods_to_eat": [
-          "Omega-3 fatty acids (e.g., fatty fish like salmon, flaxseeds)",
-          "Antioxidant-rich foods (e.g., berries, spinach)",
-          "Fiber-rich foods (e.g., whole grains, legumes)",
-          "Probiotic-rich foods (e.g., yogurt, kefir)",
-          "Spices with anti-inflammatory properties (e.g., turmeric, ginger)"
-        ]
-      },
-      {
-        "name": "Depression",
-        "description": "Depression is a mood disorder that causes persistent feelings of sadness, hopelessness, and loss of interest in activities.",
-        "remedies": [
-          "Therapy, including cognitive-behavioral therapy (CBT) and interpersonal therapy (IPT).",
-          "Medications, such as antidepressants, to help rebalance brain chemistry.",
-          "Lifestyle changes, including regular exercise, a healthy diet, and sufficient sleep.",
-          "Social support, from friends, family, or support groups."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Swimming",
-          "Dancing"
-        ],
-        "foods_to_eat": [
-          "Whole grains (e.g., brown rice, oats)",
-          "Fruits and vegetables (e.g., berries, leafy greens)",
-          "Lean proteins (e.g., chicken, tofu)",
-          "Omega-3 fatty acids (e.g., salmon, walnuts)",
-          "Probiotic-rich foods (e.g., yogurt, kefir)"
-        ]
-      },
-      {
-        "name": "Anemia",
-        "description": "Anemia occurs when you have a deficiency of red blood cells or hemoglobin, leading to reduced oxygen delivery to tissues and organs.",
-        "remedies": [
-          "Taking iron supplements or other vitamins and minerals as prescribed.",
-          "Eating a balanced diet rich in iron, vitamin B12, and folate.",
-          "Treating underlying conditions that may contribute to anemia, such as gastrointestinal bleeding.",
-          "Managing symptoms such as fatigue with rest and lifestyle modifications."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Pilates",
-          "Tai Chi"
-        ],
-        "foods_to_eat": [
-          "Iron-rich foods (e.g., red meat, spinach)",
-          "Foods high in vitamin C to enhance iron absorption (e.g., citrus fruits, bell peppers)",
-          "Foods high in vitamin B12 (e.g., fortified cereals, fish)",
-          "Foods high in folate (e.g., lentils, avocados)",
-          "Lean proteins (e.g., poultry, fish)"
-        ]
-      },
-      {
-        "name": "Sleep Apnea",
-        "description": "Sleep apnea is a sleep disorder characterized by pauses in breathing or shallow breaths during sleep, leading to disrupted sleep and daytime fatigue.",
-        "remedies": [
-          "Using continuous positive airway pressure (CPAP) therapy to keep airways open during sleep.",
-          "Losing weight if overweight or obese to reduce symptoms.",
-          "Seeking treatment for underlying conditions such as nasal congestion or obesity that may worsen sleep apnea.",
-          "Considering surgical options such as uvulopalatopharyngoplasty (UPPP) in severe cases."
-        ],
-        "exercises": [
-          "Walking",
-          "Cycling",
-          "Swimming",
-          "Yoga"
-        ],
-        "foods_to_eat": [
-          "Foods rich in magnesium (e.g., spinach, almonds)",
-          "Foods high in tryptophan (e.g., turkey, pumpkin seeds)",
-          "Foods containing melatonin precursors (e.g., tart cherries, oats)",
-          "Foods that promote serotonin production (e.g., bananas, kiwi)",
-          "Foods low in saturated fat and high in fiber (e.g., whole grains, legumes)"
-        ]
-      },
-      {
-        "name": "Hyperthyroidism",
-        "description": "Hyperthyroidism is a condition in which the thyroid gland produces too much thyroid hormone, leading to symptoms such as weight loss, rapid heartbeat, and sweating.",
-        "remedies": [
-          "Taking antithyroid medications to reduce the production of thyroid hormones.",
-          "Receiving radioactive iodine therapy to destroy overactive thyroid cells.",
-          "Considering surgical options such as thyroidectomy to remove part or all of the thyroid gland.",
-          "Managing symptoms with beta-blockers or other supportive medications as needed."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Tai Chi",
-          "Pilates"
-        ],
-        "foods_to_eat": [
-          "Foods rich in iodine (e.g., seaweed, iodized salt)",
-          "Foods high in selenium (e.g., Brazil nuts, sunflower seeds)",
-          "Foods containing calcium (e.g., dairy products, leafy greens)",
-          "Foods with omega-3 fatty acids (e.g., fatty fish, flaxseeds)",
-          "Fruits and vegetables (e.g., berries, carrots)"
-        ]
-      },
-      {
-        "name": "Hypothyroidism",
-        "description": "Hypothyroidism is a condition in which the thyroid gland doesn't produce enough thyroid hormone, leading to symptoms such as fatigue, weight gain, and sensitivity to cold.",
-        "remedies": [
-          "Taking synthetic thyroid hormone replacement medications to restore hormone levels.",
-          "Monitoring thyroid function regularly with blood tests and adjusting medication doses as needed.",
-          "Eating a balanced diet rich in iodine and selenium to support thyroid function.",
-          "Managing symptoms such as fatigue and depression with lifestyle modifications and medications."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Tai Chi",
-          "Pilates"
-        ],
-        "foods_to_eat": [
-          "Foods rich in iodine (e.g., seaweed, iodized salt)",
-          "Foods high in selenium (e.g., Brazil nuts, sunflower seeds)",
-          "Foods containing iron (e.g., lean meats, beans)",
-          "Foods with vitamin D (e.g., fatty fish, fortified dairy products)",
-          "Fruits and vegetables (e.g., citrus fruits, leafy greens)"
-        ]
-      },
-      {
-        "name": "Fibromyalgia",
-        "description": "Fibromyalgia is a disorder characterized by widespread musculoskeletal pain, fatigue, and tenderness in localized areas.",
-        "remedies": [
-          "Taking medications such as antidepressants, anticonvulsants, or muscle relaxants to manage symptoms.",
-          "Participating in physical therapy to learn exercises and techniques for pain relief and improved function.",
-          "Practicing stress-reduction techniques such as relaxation exercises or mindfulness meditation.",
-          "Getting enough sleep and maintaining a regular sleep schedule to minimize fatigue and pain."
-        ],
-        "exercises": [
-          "Walking",
-          "Swimming",
-          "Yoga",
-          "Pilates"
-        ],
-        "foods_to_eat": [
-          "Foods rich in omega-3 fatty acids (e.g., salmon, flaxseeds)",
-          "Anti-inflammatory foods (e.g., berries, leafy greens)",
-          "Complex carbohydrates (e.g., whole grains, sweet potatoes)",
-          "Lean proteins (e.g., chicken breast, tofu)",
-          "Foods high in magnesium (e.g., nuts, seeds)"
-        ]
-      },
-      {
-        "name": "Multiple Sclerosis (MS)",
-        "description": "Multiple sclerosis (MS) is a chronic autoimmune disease that affects the central nervous system, causing inflammation, demyelination, and neurological symptoms.",
-        "remedies": [
-          "Taking disease-modifying therapies (DMTs) to reduce relapses and slow disease progression.",
-          "Using medications to manage symptoms such as muscle spasticity, pain, and fatigue.",
-          "Participating in physical therapy to improve mobility, strength, and balance.",
-          "Seeking support from healthcare providers, support groups, or mental health professionals."
-        ],
-        "exercises": [
-          "Swimming",
-          "Cycling",
-          "Yoga",
-          "Tai Chi"
-        ],
-        "foods_to_eat": [
-          "Foods rich in antioxidants (e.g., berries, dark chocolate)",
-          "Omega-3 fatty acids (e.g., fatty fish, walnuts)",
-          "Foods high in vitamin D (e.g., fortified dairy products, mushrooms)",
-          "Whole grains (e.g., brown rice, quinoa)",
-          "Plant-based proteins (e.g., beans, lentils)"
-        ]
-      },
-      {
-        "name": "Migraine",
-        "description": "Migraine is a neurological disorder characterized by recurrent headaches that can cause severe throbbing or pulsing pain, often accompanied by nausea, vomiting, and sensitivity to light and sound.",
-        "remedies": [
-          "Taking medications such as pain relievers, triptans, or preventive drugs as prescribed by a healthcare provider.",
-          "Identifying and avoiding triggers such as certain foods, stress, or hormonal changes.",
-          "Practicing relaxation techniques such as deep breathing exercises or progressive muscle relaxation.",
-          "Seeking medical care for severe or prolonged migraines that don't respond to over-the-counter treatments."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Pilates",
-          "Swimming"
-        ],
-        "foods_to_eat": [
-          "Magnesium-rich foods (e.g., almonds, spinach)",
-          "Foods containing omega-3 fatty acids (e.g., fatty fish, flaxseeds)",
-          "Complex carbohydrates (e.g., whole grains, sweet potatoes)",
-          "Foods high in riboflavin (e.g., eggs, dairy products)",
-          "Hydrating foods (e.g., cucumber, watermelon)"
-        ]
-      },
-      {
-        "name": "Celiac Disease",
-        "description": "Celiac disease is an autoimmune disorder triggered by gluten, a protein found in wheat, barley, and rye, that damages the small intestine and interferes with nutrient absorption.",
-        "remedies": [
-          "Following a strict gluten-free diet to avoid triggering symptoms and promote intestinal healing.",
-          "Reading food labels carefully and avoiding cross-contamination with gluten-containing foods.",
-          "Consulting with a registered dietitian for guidance on gluten-free eating and nutrient supplementation.",
-          "Seeking support from celiac support groups or online communities."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Tai Chi",
-          "Pilates"
-        ],
-        "foods_to_eat": [
-          "Gluten-free grains (e.g., rice, quinoa)",
-          "Fruits and vegetables",
-          "Lean proteins (e.g., chicken, fish)",
-          "Healthy fats (e.g., avocado, olive oil)",
-          "Dairy alternatives (e.g., almond milk, coconut yogurt)"
-        ]
-      },
-      {
-        "name": "Bipolar Disorder",
-        "description": "Bipolar disorder, formerly called manic depression, is a mental health condition characterized by extreme mood swings that include emotional highs (mania or hypomania) and lows (depression).",
-        "remedies": [
-          "Taking mood stabilizers, antipsychotic medications, or antidepressants as prescribed by a healthcare provider.",
-          "Participating in psychotherapy or counseling to learn coping skills and manage symptoms.",
-          "Creating a structured routine and maintaining a healthy lifestyle with regular sleep, exercise, and nutrition.",
-          "In severe cases, considering electroconvulsive therapy (ECT) or hospitalization for stabilization."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Dancing",
-          "Tai Chi"
-        ],
-        "foods_to_eat": [
-          "Fatty fish (e.g., salmon, mackerel)",
-          "Leafy greens (e.g., spinach, kale)",
-          "Whole grains (e.g., quinoa, brown rice)",
-          "Lean proteins (e.g., chicken, tofu)",
-          "Probiotic-rich foods (e.g., yogurt, kefir)"
-        ]
-      },
-      {
-        "name": "Crohn's Disease",
-        "description": "Crohn's disease is a type of inflammatory bowel disease (IBD) that causes inflammation of the digestive tract, leading to abdominal pain, diarrhea, fatigue, and weight loss.",
-        "remedies": [
-          "Taking medications such as anti-inflammatory drugs, immunosuppressants, or biologics to control inflammation and manage symptoms.",
-          "Following a special diet or eliminating trigger foods that worsen symptoms.",
-          "Undergoing surgery to remove damaged portions of the digestive tract or repair complications such as fistulas or strictures.",
-          "Participating in support groups or seeking counseling to cope with the emotional impact of the disease."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Pilates",
-          "Swimming"
-        ],
-        "foods_to_eat": [
-          "Low-fiber foods (e.g., white rice, cooked vegetables)",
-          "Soft, bland foods (e.g., bananas, applesauce)",
-          "Lean proteins (e.g., poultry, fish)",
-          "Probiotic-rich foods (e.g., yogurt, kefir)",
-          "Nutrient-dense foods (e.g., bone broth, nut butter)"
-        ]
-      },
-      {
-        "name": "Schizophrenia",
-        "description": "Schizophrenia is a chronic and severe mental disorder that affects how a person thinks, feels, and behaves. People with schizophrenia may seem like they have lost touch with reality.",
-        "remedies": [
-          "Taking antipsychotic medications as prescribed to manage symptoms such as hallucinations and delusions.",
-          "Participating in individual or group therapy to learn coping skills and improve social functioning.",
-          "Creating a supportive environment with stable housing, employment, and social connections.",
-          "In severe cases, considering hospitalization or other intensive treatment programs."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Tai Chi",
-          "Dancing"
-        ],
-        "foods_to_eat": [
-          "Fruits and vegetables",
-          "Whole grains (e.g., brown rice, whole wheat bread)",
-          "Lean proteins (e.g., chicken, fish)",
-          "Nuts and seeds (e.g., almonds, sunflower seeds)",
-          "Healthy fats (e.g., avocado, olive oil)"
-        ]
-      },
-      {
-        "name": "Hemorrhoids",
-        "description": "Hemorrhoids are swollen veins in your lower rectum or anus, similar to varicose veins. Hemorrhoids can develop inside the rectum (internal hemorrhoids) or under the skin around the anus (external hemorrhoids).",
-        "remedies": [
-          "Increasing fiber intake to soften stools and reduce straining during bowel movements.",
-          "Using over-the-counter creams or suppositories to relieve itching, pain, and swelling.",
-          "Soaking in warm water baths (sitz baths) to alleviate discomfort and promote healing.",
-          "Applying cold packs or witch hazel pads to the affected area to reduce swelling and inflammation."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Pilates",
-          "Tai Chi"
-        ],
-        "foods_to_eat": [
-          "High-fiber foods (e.g., fruits, vegetables, whole grains)",
-          "Hydrating fluids (e.g., water, herbal tea)",
-          "Foods rich in flavonoids (e.g., berries, citrus fruits)",
-          "Healthy fats (e.g., avocado, nuts)",
-          "Probiotic-rich foods (e.g., yogurt, kefir)"
-        ]
-      },
-      {
-        "name": "Interstitial Cystitis",
-        "description": "Interstitial cystitis (IC) is a chronic condition causing bladder pressure, bladder pain, and sometimes pelvic pain. The pain ranges from mild discomfort to severe pain.",
-        "remedies": [
-          "Following a low-acid diet to minimize irritation of the bladder lining.",
-          "Taking medications such as pentosan polysulfate sodium (Elmiron) to relieve bladder pain and discomfort.",
-          "Using bladder instillations or other bladder-directed therapies for symptom relief.",
-          "Participating in pelvic floor physical therapy to improve pelvic muscle function and reduce pain."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Pilates",
-          "Swimming"
-        ],
-        "foods_to_eat": [
-          "Alkaline foods (e.g., vegetables, fruits)",
-          "Low-acid foods (e.g., bananas, broccoli)",
-          "Non-citrus fruits (e.g., pears, apples)",
-          "Lean proteins (e.g., chicken, fish)",
-          "Hydrating fluids (e.g., water, herbal tea)"
-        ]
-      },
-      {
-        "name": "Chronic Migraine",
-        "description": "Chronic migraine is a neurological condition characterized by frequent and severe headaches, often accompanied by other symptoms such as nausea, vomiting, and sensitivity to light and sound.",
-        "remedies": [
-          "Taking medications such as preventive drugs, acute migraine medications, or rescue medications as prescribed.",
-          "Identifying and avoiding triggers such as certain foods, stress, or hormonal changes.",
-          "Practicing relaxation techniques such as deep breathing exercises or progressive muscle relaxation.",
-          "Seeking medical care for severe or prolonged migraines that don't respond to over-the-counter treatments."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Pilates",
-          "Swimming"
-        ],
-        "foods_to_eat": [
-          "Magnesium-rich foods (e.g., almonds, spinach)",
-          "Foods containing omega-3 fatty acids (e.g., fatty fish, flaxseeds)",
-          "Complex carbohydrates (e.g., whole grains, sweet potatoes)",
-          "Foods high in riboflavin (e.g., eggs, dairy products)",
-          "Hydrating foods (e.g., cucumber, watermelon)"
-        ]
-      },
-      {
-        "name": "Hypothyroidism (Underactive Thyroid)",
-        "description": "Hypothyroidism, also known as underactive thyroid, is a condition in which the thyroid gland doesn't produce enough thyroid hormone, leading to symptoms such as fatigue, weight gain, and sensitivity to cold.",
-        "remedies": [
-          "Taking synthetic thyroid hormone replacement medications to restore hormone levels.",
-          "Monitoring thyroid function regularly with blood tests and adjusting medication doses as needed.",
-          "Eating a balanced diet rich in iodine and selenium to support thyroid function.",
-          "Managing symptoms such as fatigue and depression with lifestyle modifications and medications."
-        ],
-        "exercises": [
-          "Walking",
-          "Yoga",
-          "Tai Chi",
-          "Pilates"
-        ],
-        "foods_to_eat": [
-          "Foods rich in iodine (e.g., seaweed, iodized salt)",
-          "Foods high in selenium (e.g., Brazil nuts, sunflower seeds)",
-          "Foods containing iron (e.g., lean meats, beans)",
-          "Foods with vitamin D (e.g., fatty fish, fortified dairy products)",
-          "Fruits and vegetables (e.g., citrus fruits, leafy greens)"
-        ]
-      }
-    ]
-  }
+  "diseases": [
+    {
+      "name": "Heart Disease",
+      "description": "Heart disease refers to conditions that involve narrowed or blocked blood vessels that can lead to heart attack, chest pain (angina), or stroke.",
+      "remedies": [
+        "Adopting a healthy diet low in saturated fat, cholesterol, and sodium.",
+        "Quitting smoking and avoiding secondhand smoke.",
+        "Managing stress through relaxation techniques like meditation or deep breathing.",
+        "Taking prescribed medications as directed by a healthcare provider."
+      ],
+      "exercises": [
+        "Walking",
+        "Swimming",
+        "Cycling",
+        "Aerobics"
+      ],
+      "foods_to_eat": [
+        "Fruits (e.g., berries, citrus fruits)",
+        "Vegetables (e.g., leafy greens, broccoli)",
+        "Whole grains (e.g., oats, quinoa)",
+        "Lean proteins (e.g., fish, chicken)",
+        "Nuts and seeds (e.g., almonds, flaxseeds)"
+      ]
+    },
+    {
+      "name": "Type 2 Diabetes",
+      "description": "Type 2 diabetes is a chronic condition that affects the way your body metabolizes sugar (glucose), leading to high blood sugar levels.",
+      "remedies": [
+        "Following a balanced diet that includes plenty of fruits, vegetables, and whole grains.",
+        "Monitoring blood sugar levels regularly and adjusting medications as needed.",
+        "Engaging in regular physical activity to improve insulin sensitivity.",
+        "Maintaining a healthy weight through diet and exercise."
+      ],
+      "exercises": [
+        "Brisk walking",
+        "Jogging/Running",
+        "Strength training",
+        "Yoga/Pilates"
+      ],
+      "foods_to_eat": [
+        "Non-starchy vegetables (e.g., spinach, broccoli)",
+        "Whole grains (e.g., brown rice, quinoa)",
+        "Lean proteins (e.g., chicken, fish)",
+        "Healthy fats (e.g., avocado, olive oil)",
+        "Fruits (e.g., berries, apples)"
+      ]
+    },
+    {
+      "name": "Obesity",
+      "description": "Obesity is a medical condition characterized by excessive accumulation of body fat, which increases the risk of various diseases and health problems.",
+      "remedies": [
+        "Eating a balanced diet with reduced calorie intake.",
+        "Increasing physical activity levels to burn calories and improve overall health.",
+        "Seeking support from healthcare professionals or support groups for weight management.",
+        "Considering weight loss medications or bariatric surgery in severe cases."
+      ],
+      "exercises": [
+        "High-intensity interval training (HIIT)",
+        "Circuit training",
+        "Dance fitness",
+        "Hiking"
+      ],
+      "foods_to_eat": [
+        "High-fiber foods (e.g., beans, lentils)",
+        "Lean proteins (e.g., chicken breast, tofu)",
+        "Vegetables (e.g., broccoli, spinach)",
+        "Whole grains (e.g., quinoa, oats)",
+        "Fruits (e.g., berries, apples)"
+      ]
+    },
+    {
+      "name": "Osteoporosis",
+      "description": "Osteoporosis is a bone disease that occurs when the body loses too much bone mass, makes too little bone, or both, leading to weak and brittle bones.",
+      "remedies": [
+        "Ensuring an adequate intake of calcium and vitamin D through diet and supplements.",
+        "Engaging in weight-bearing exercises to strengthen bones and improve balance.",
+        "Avoiding smoking and excessive alcohol consumption, which can contribute to bone loss.",
+        "Taking prescribed medications to prevent further bone loss or promote bone formation."
+      ],
+      "exercises": [
+        "Weight-bearing exercises (e.g., walking, hiking)",
+        "Resistance training (e.g., lifting weights)",
+        "Tai Chi",
+        "Yoga"
+      ],
+      "foods_to_eat": [
+        "Dairy products (e.g., milk, yogurt)",
+        "Leafy greens (e.g., kale, collard greens)",
+        "Soy products (e.g., tofu, soy milk)",
+        "Fish with bones (e.g., canned salmon, sardines)",
+        "Fortified foods (e.g., fortified orange juice, breakfast cereals)"
+      ]
+    },
+    {
+      "name": "Stroke",
+      "description": "A stroke occurs when blood supply to part of the brain is interrupted or reduced, depriving brain tissue of oxygen and nutrients, causing brain cells to die.",
+      "remedies": [
+        "Rehabilitation therapy to regain lost skills and learn new ones.",
+        "Medications to prevent and treat complications such as blood thinners to reduce the risk of blood clots.",
+        "Making lifestyle changes to manage risk factors such as high blood pressure, diabetes, and high cholesterol.",
+        "Surgery or procedures to treat underlying conditions or prevent future strokes."
+      ],
+      "exercises": [
+        "Walking",
+        "Swimming",
+        "Cycling",
+        "Chair exercises"
+      ],
+      "foods_to_eat": [
+        "Fatty fish (e.g., salmon, mackerel)",
+        "Leafy greens (e.g., spinach, kale)",
+        "Berries (e.g., blueberries, strawberries)",
+        "Nuts and seeds (e.g., almonds, flaxseeds)",
+        "Whole grains (e.g., oats, quinoa)"
+      ]
+    },
+    {
+      "name": "Alzheimer's Disease",
+      "description": "Alzheimer's disease is a progressive disorder that causes brain cells to degenerate and die, leading to a decline in memory, thinking, and other cognitive functions.",
+      "remedies": [
+        "Taking medications prescribed by a healthcare provider to manage symptoms.",
+        "Participating in cognitive stimulation activities to maintain mental function.",
+        "Engaging in physical exercise to improve mood, sleep, and overall well-being.",
+        "Seeking support from caregivers, support groups, or Alzheimer's associations."
+      ],
+      "exercises": [
+        "Walking",
+        "Swimming",
+        "Tai Chi",
+        "Chair exercises"
+      ],
+      "foods_to_eat": [
+        "Fatty fish (e.g., salmon, trout)",
+        "Leafy greens (e.g., spinach, kale)",
+        "Berries (e.g., blueberries, strawberries)",
+        "Nuts and seeds (e.g., walnuts, chia seeds)",
+        "Whole grains (e.g., quinoa, brown rice)"
+      ]
+    },
+    {
+      "name": "Asthma",
+      "description": "Asthma is a chronic inflammatory disease of the airways that causes recurrent episodes of wheezing, breathlessness, chest tightness, and coughing.",
+      "remedies": [
+        "Using a prescribed inhaler to deliver medications that help open airways during an asthma attack.",
+        "Identifying and avoiding triggers such as allergens or irritants.",
+        "Following an asthma action plan provided by a healthcare provider to manage symptoms.",
+        "Using allergy medications or immunotherapy to reduce sensitivity to triggers."
+      ],
+      "exercises": [
+        "Walking",
+        "Swimming",
+        "Cycling",
+        "Yoga"
+      ],
+      "foods_to_eat": [
+        "Omega-3-rich foods (e.g., salmon, walnuts)",
+        "Fruits and vegetables high in antioxidants (e.g., oranges, tomatoes)",
+        "Magnesium-rich foods (e.g., spinach, almonds)",
+        "Whole grains (e.g., oats, quinoa)",
+        "Vitamin D-rich foods (e.g., fortified milk, eggs)"
+      ]
+    },
+    {
+      "name": "Chronic Kidney Disease",
+      "description": "Chronic kidney disease (CKD) is a condition in which your kidneys are damaged and can't filter blood properly, leading to waste buildup in the body.",
+      "remedies": [
+        "Managing underlying conditions such as diabetes or high blood pressure.",
+        "Following a kidney-friendly diet low in sodium, potassium, and phosphorus.",
+        "Taking medications as prescribed to control symptoms and slow the progression of the disease.",
+        "Undergoing dialysis or kidney transplant in advanced stages of CKD."
+      ],
+      "exercises": [
+        "Walking",
+        "Cycling",
+        "Swimming",
+        "Strength training"
+      ],
+      "foods_to_eat": [
+        "Low-phosphorus foods (e.g., apples, cucumbers)",
+        "Low-potassium fruits (e.g., apples, berries)",
+        "Low-sodium foods (e.g., fresh vegetables, rice)",
+        "Lean proteins (e.g., chicken, fish)",
+        "Healthy fats (e.g., olive oil, avocado)"
+      ]
+    },
+    {
+      "name": "Liver Disease",
+      "description": "Liver disease refers to any disorder that causes damage to the liver, ranging from fatty liver disease to cirrhosis and liver cancer.",
+      "remedies": [
+        "Abstaining from alcohol and avoiding medications that may harm the liver.",
+        "Following a balanced diet low in saturated fats and refined sugars.",
+        "Taking prescribed medications to manage symptoms or slow the progression of the disease.",
+        "Considering liver transplantation in severe cases of liver failure."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Tai Chi",
+        "Pilates"
+      ],
+      "foods_to_eat": [
+        "Fruits and vegetables high in antioxidants (e.g., berries, spinach)",
+        "Lean proteins (e.g., chicken, fish)",
+        "Whole grains (e.g., brown rice, quinoa)",
+        "Healthy fats (e.g., olive oil, avocado)",
+        "Low-sodium foods (e.g., fresh vegetables, unsalted nuts)"
+      ]
+    },
+    {
+      "name": "HIV/AIDS",
+      "description": "HIV/AIDS is a virus that attacks the body's immune system, making it difficult to fight off infections and other diseases.",
+      "remedies": [
+        "Adhering to antiretroviral therapy (ART) to suppress viral load and prevent disease progression.",
+        "Practicing safer sex and using condoms to reduce the risk of transmitting HIV to others.",
+        "Seeking mental health support to cope with the emotional impact of HIV/AIDS.",
+        "Engaging in regular medical care and monitoring for complications."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Swimming",
+        "Tai Chi"
+      ],
+      "foods_to_eat": [
+        "Lean proteins (e.g., chicken, fish)",
+        "Whole grains (e.g., brown rice, quinoa)",
+        "Fruits and vegetables high in antioxidants (e.g., berries, spinach)",
+        "Healthy fats (e.g., avocados, nuts)",
+        "Probiotic-rich foods (e.g., yogurt, kefir)"
+      ]
+    },
+    {
+      "name": "Rheumatoid Arthritis",
+      "description": "Rheumatoid arthritis is an autoimmune disorder that causes chronic inflammation of the joints and other areas of the body.",
+      "remedies": [
+        "Taking disease-modifying antirheumatic drugs (DMARDs) to slow the progression of the disease.",
+        "Using nonsteroidal anti-inflammatory drugs (NSAIDs) or corticosteroids to reduce pain and inflammation.",
+        "Participating in physical therapy to learn exercises and techniques to improve joint function.",
+        "Considering surgical options such as joint replacement in severe cases."
+      ],
+      "exercises": [
+        "Tai Chi",
+        "Yoga",
+        "Pilates",
+        "Swimming"
+      ],
+      "foods_to_eat": [
+        "Omega-3 fatty acids (e.g., fatty fish like salmon, flaxseeds)",
+        "Antioxidant-rich foods (e.g., berries, spinach)",
+        "Fiber-rich foods (e.g., whole grains, legumes)",
+        "Probiotic-rich foods (e.g., yogurt, kefir)",
+        "Spices with anti-inflammatory properties (e.g., turmeric, ginger)"
+      ]
+    },
+    {
+      "name": "Depression",
+      "description": "Depression is a mood disorder that causes persistent feelings of sadness, hopelessness, and loss of interest in activities.",
+      "remedies": [
+        "Therapy, including cognitive-behavioral therapy (CBT) and interpersonal therapy (IPT).",
+        "Medications, such as antidepressants, to help rebalance brain chemistry.",
+        "Lifestyle changes, including regular exercise, a healthy diet, and sufficient sleep.",
+        "Social support, from friends, family, or support groups."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Swimming",
+        "Dancing"
+      ],
+      "foods_to_eat": [
+        "Whole grains (e.g., brown rice, oats)",
+        "Fruits and vegetables (e.g., berries, leafy greens)",
+        "Lean proteins (e.g., chicken, tofu)",
+        "Omega-3 fatty acids (e.g., salmon, walnuts)",
+        "Probiotic-rich foods (e.g., yogurt, kefir)"
+      ]
+    },
+    {
+      "name": "Anemia",
+      "description": "Anemia occurs when you have a deficiency of red blood cells or hemoglobin, leading to reduced oxygen delivery to tissues and organs.",
+      "remedies": [
+        "Taking iron supplements or other vitamins and minerals as prescribed.",
+        "Eating a balanced diet rich in iron, vitamin B12, and folate.",
+        "Treating underlying conditions that may contribute to anemia, such as gastrointestinal bleeding.",
+        "Managing symptoms such as fatigue with rest and lifestyle modifications."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Pilates",
+        "Tai Chi"
+      ],
+      "foods_to_eat": [
+        "Iron-rich foods (e.g., red meat, spinach)",
+        "Foods high in vitamin C to enhance iron absorption (e.g., citrus fruits, bell peppers)",
+        "Foods high in vitamin B12 (e.g., fortified cereals, fish)",
+        "Foods high in folate (e.g., lentils, avocados)",
+        "Lean proteins (e.g., poultry, fish)"
+      ]
+    },
+    {
+      "name": "Sleep Apnea",
+      "description": "Sleep apnea is a sleep disorder characterized by pauses in breathing or shallow breaths during sleep, leading to disrupted sleep and daytime fatigue.",
+      "remedies": [
+        "Using continuous positive airway pressure (CPAP) therapy to keep airways open during sleep.",
+        "Losing weight if overweight or obese to reduce symptoms.",
+        "Seeking treatment for underlying conditions such as nasal congestion or obesity that may worsen sleep apnea.",
+        "Considering surgical options such as uvulopalatopharyngoplasty (UPPP) in severe cases."
+      ],
+      "exercises": [
+        "Walking",
+        "Cycling",
+        "Swimming",
+        "Yoga"
+      ],
+      "foods_to_eat": [
+        "Foods rich in magnesium (e.g., spinach, almonds)",
+        "Foods high in tryptophan (e.g., turkey, pumpkin seeds)",
+        "Foods containing melatonin precursors (e.g., tart cherries, oats)",
+        "Foods that promote serotonin production (e.g., bananas, kiwi)",
+        "Foods low in saturated fat and high in fiber (e.g., whole grains, legumes)"
+      ]
+    },
+    {
+      "name": "Hyperthyroidism",
+      "description": "Hyperthyroidism is a condition in which the thyroid gland produces too much thyroid hormone, leading to symptoms such as weight loss, rapid heartbeat, and sweating.",
+      "remedies": [
+        "Taking antithyroid medications to reduce the production of thyroid hormones.",
+        "Receiving radioactive iodine therapy to destroy overactive thyroid cells.",
+        "Considering surgical options such as thyroidectomy to remove part or all of the thyroid gland.",
+        "Managing symptoms with beta-blockers or other supportive medications as needed."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Tai Chi",
+        "Pilates"
+      ],
+      "foods_to_eat": [
+        "Foods rich in iodine (e.g., seaweed, iodized salt)",
+        "Foods high in selenium (e.g., Brazil nuts, sunflower seeds)",
+        "Foods containing calcium (e.g., dairy products, leafy greens)",
+        "Foods with omega-3 fatty acids (e.g., fatty fish, flaxseeds)",
+        "Fruits and vegetables (e.g., berries, carrots)"
+      ]
+    },
+    {
+      "name": "Hypothyroidism",
+      "description": "Hypothyroidism is a condition in which the thyroid gland doesn't produce enough thyroid hormone, leading to symptoms such as fatigue, weight gain, and sensitivity to cold.",
+      "remedies": [
+        "Taking synthetic thyroid hormone replacement medications to restore hormone levels.",
+        "Monitoring thyroid function regularly with blood tests and adjusting medication doses as needed.",
+        "Eating a balanced diet rich in iodine and selenium to support thyroid function.",
+        "Managing symptoms such as fatigue and depression with lifestyle modifications and medications."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Tai Chi",
+        "Pilates"
+      ],
+      "foods_to_eat": [
+        "Foods rich in iodine (e.g., seaweed, iodized salt)",
+        "Foods high in selenium (e.g., Brazil nuts, sunflower seeds)",
+        "Foods containing iron (e.g., lean meats, beans)",
+        "Foods with vitamin D (e.g., fatty fish, fortified dairy products)",
+        "Fruits and vegetables (e.g., citrus fruits, leafy greens)"
+      ]
+    },
+    {
+      "name": "Fibromyalgia",
+      "description": "Fibromyalgia is a disorder characterized by widespread musculoskeletal pain, fatigue, and tenderness in localized areas.",
+      "remedies": [
+        "Taking medications such as antidepressants, anticonvulsants, or muscle relaxants to manage symptoms.",
+        "Participating in physical therapy to learn exercises and techniques for pain relief and improved function.",
+        "Practicing stress-reduction techniques such as relaxation exercises or mindfulness meditation.",
+        "Getting enough sleep and maintaining a regular sleep schedule to minimize fatigue and pain."
+      ],
+      "exercises": [
+        "Walking",
+        "Swimming",
+        "Yoga",
+        "Pilates"
+      ],
+      "foods_to_eat": [
+        "Foods rich in omega-3 fatty acids (e.g., salmon, flaxseeds)",
+        "Anti-inflammatory foods (e.g., berries, leafy greens)",
+        "Complex carbohydrates (e.g., whole grains, sweet potatoes)",
+        "Lean proteins (e.g., chicken breast, tofu)",
+        "Foods high in magnesium (e.g., nuts, seeds)"
+      ]
+    },
+    {
+      "name": "Multiple Sclerosis (MS)",
+      "description": "Multiple sclerosis (MS) is a chronic autoimmune disease that affects the central nervous system, causing inflammation, demyelination, and neurological symptoms.",
+      "remedies": [
+        "Taking disease-modifying therapies (DMTs) to reduce relapses and slow disease progression.",
+        "Using medications to manage symptoms such as muscle spasticity, pain, and fatigue.",
+        "Participating in physical therapy to improve mobility, strength, and balance.",
+        "Seeking support from healthcare providers, support groups, or mental health professionals."
+      ],
+      "exercises": [
+        "Swimming",
+        "Cycling",
+        "Yoga",
+        "Tai Chi"
+      ],
+      "foods_to_eat": [
+        "Foods rich in antioxidants (e.g., berries, dark chocolate)",
+        "Omega-3 fatty acids (e.g., fatty fish, walnuts)",
+        "Foods high in vitamin D (e.g., fortified dairy products, mushrooms)",
+        "Whole grains (e.g., brown rice, quinoa)",
+        "Plant-based proteins (e.g., beans, lentils)"
+      ]
+    },
+    {
+      "name": "Migraine",
+      "description": "Migraine is a neurological disorder characterized by recurrent headaches that can cause severe throbbing or pulsing pain, often accompanied by nausea, vomiting, and sensitivity to light and sound.",
+      "remedies": [
+        "Taking medications such as pain relievers, triptans, or preventive drugs as prescribed by a healthcare provider.",
+        "Identifying and avoiding triggers such as certain foods, stress, or hormonal changes.",
+        "Practicing relaxation techniques such as deep breathing exercises or progressive muscle relaxation.",
+        "Seeking medical care for severe or prolonged migraines that don't respond to over-the-counter treatments."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Pilates",
+        "Swimming"
+      ],
+      "foods_to_eat": [
+        "Magnesium-rich foods (e.g., almonds, spinach)",
+        "Foods containing omega-3 fatty acids (e.g., fatty fish, flaxseeds)",
+        "Complex carbohydrates (e.g., whole grains, sweet potatoes)",
+        "Foods high in riboflavin (e.g., eggs, dairy products)",
+        "Hydrating foods (e.g., cucumber, watermelon)"
+      ]
+    },
+    {
+      "name": "Celiac Disease",
+      "description": "Celiac disease is an autoimmune disorder triggered by gluten, a protein found in wheat, barley, and rye, that damages the small intestine and interferes with nutrient absorption.",
+      "remedies": [
+        "Following a strict gluten-free diet to avoid triggering symptoms and promote intestinal healing.",
+        "Reading food labels carefully and avoiding cross-contamination with gluten-containing foods.",
+        "Consulting with a registered dietitian for guidance on gluten-free eating and nutrient supplementation.",
+        "Seeking support from celiac support groups or online communities."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Tai Chi",
+        "Pilates"
+      ],
+      "foods_to_eat": [
+        "Gluten-free grains (e.g., rice, quinoa)",
+        "Fruits and vegetables",
+        "Lean proteins (e.g., chicken, fish)",
+        "Healthy fats (e.g., avocado, olive oil)",
+        "Dairy alternatives (e.g., almond milk, coconut yogurt)"
+      ]
+    },
+    {
+      "name": "Bipolar Disorder",
+      "description": "Bipolar disorder, formerly called manic depression, is a mental health condition characterized by extreme mood swings that include emotional highs (mania or hypomania) and lows (depression).",
+      "remedies": [
+        "Taking mood stabilizers, antipsychotic medications, or antidepressants as prescribed by a healthcare provider.",
+        "Participating in psychotherapy or counseling to learn coping skills and manage symptoms.",
+        "Creating a structured routine and maintaining a healthy lifestyle with regular sleep, exercise, and nutrition.",
+        "In severe cases, considering electroconvulsive therapy (ECT) or hospitalization for stabilization."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Dancing",
+        "Tai Chi"
+      ],
+      "foods_to_eat": [
+        "Fatty fish (e.g., salmon, mackerel)",
+        "Leafy greens (e.g., spinach, kale)",
+        "Whole grains (e.g., quinoa, brown rice)",
+        "Lean proteins (e.g., chicken, tofu)",
+        "Probiotic-rich foods (e.g., yogurt, kefir)"
+      ]
+    },
+    {
+      "name": "Crohn's Disease",
+      "description": "Crohn's disease is a type of inflammatory bowel disease (IBD) that causes inflammation of the digestive tract, leading to abdominal pain, diarrhea, fatigue, and weight loss.",
+      "remedies": [
+        "Taking medications such as anti-inflammatory drugs, immunosuppressants, or biologics to control inflammation and manage symptoms.",
+        "Following a special diet or eliminating trigger foods that worsen symptoms.",
+        "Undergoing surgery to remove damaged portions of the digestive tract or repair complications such as fistulas or strictures.",
+        "Participating in support groups or seeking counseling to cope with the emotional impact of the disease."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Pilates",
+        "Swimming"
+      ],
+      "foods_to_eat": [
+        "Low-fiber foods (e.g., white rice, cooked vegetables)",
+        "Soft, bland foods (e.g., bananas, applesauce)",
+        "Lean proteins (e.g., poultry, fish)",
+        "Probiotic-rich foods (e.g., yogurt, kefir)",
+        "Nutrient-dense foods (e.g., bone broth, nut butter)"
+      ]
+    },
+    {
+      "name": "Schizophrenia",
+      "description": "Schizophrenia is a chronic and severe mental disorder that affects how a person thinks, feels, and behaves. People with schizophrenia may seem like they have lost touch with reality.",
+      "remedies": [
+        "Taking antipsychotic medications as prescribed to manage symptoms such as hallucinations and delusions.",
+        "Participating in individual or group therapy to learn coping skills and improve social functioning.",
+        "Creating a supportive environment with stable housing, employment, and social connections.",
+        "In severe cases, considering hospitalization or other intensive treatment programs."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Tai Chi",
+        "Dancing"
+      ],
+      "foods_to_eat": [
+        "Fruits and vegetables",
+        "Whole grains (e.g., brown rice, whole wheat bread)",
+        "Lean proteins (e.g., chicken, fish)",
+        "Nuts and seeds (e.g., almonds, sunflower seeds)",
+        "Healthy fats (e.g., avocado, olive oil)"
+      ]
+    },
+    {
+      "name": "Hemorrhoids",
+      "description": "Hemorrhoids are swollen veins in your lower rectum or anus, similar to varicose veins. Hemorrhoids can develop inside the rectum (internal hemorrhoids) or under the skin around the anus (external hemorrhoids).",
+      "remedies": [
+        "Increasing fiber intake to soften stools and reduce straining during bowel movements.",
+        "Using over-the-counter creams or suppositories to relieve itching, pain, and swelling.",
+        "Soaking in warm water baths (sitz baths) to alleviate discomfort and promote healing.",
+        "Applying cold packs or witch hazel pads to the affected area to reduce swelling and inflammation."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Pilates",
+        "Tai Chi"
+      ],
+      "foods_to_eat": [
+        "High-fiber foods (e.g., fruits, vegetables, whole grains)",
+        "Hydrating fluids (e.g., water, herbal tea)",
+        "Foods rich in flavonoids (e.g., berries, citrus fruits)",
+        "Healthy fats (e.g., avocado, nuts)",
+        "Probiotic-rich foods (e.g., yogurt, kefir)"
+      ]
+    },
+    {
+      "name": "Interstitial Cystitis",
+      "description": "Interstitial cystitis (IC) is a chronic condition causing bladder pressure, bladder pain, and sometimes pelvic pain. The pain ranges from mild discomfort to severe pain.",
+      "remedies": [
+        "Following a low-acid diet to minimize irritation of the bladder lining.",
+        "Taking medications such as pentosan polysulfate sodium (Elmiron) to relieve bladder pain and discomfort.",
+        "Using bladder instillations or other bladder-directed therapies for symptom relief.",
+        "Participating in pelvic floor physical therapy to improve pelvic muscle function and reduce pain."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Pilates",
+        "Swimming"
+      ],
+      "foods_to_eat": [
+        "Alkaline foods (e.g., vegetables, fruits)",
+        "Low-acid foods (e.g., bananas, broccoli)",
+        "Non-citrus fruits (e.g., pears, apples)",
+        "Lean proteins (e.g., chicken, fish)",
+        "Hydrating fluids (e.g., water, herbal tea)"
+      ]
+    },
+    {
+      "name": "Chronic Migraine",
+      "description": "Chronic migraine is a neurological condition characterized by frequent and severe headaches, often accompanied by other symptoms such as nausea, vomiting, and sensitivity to light and sound.",
+      "remedies": [
+        "Taking medications such as preventive drugs, acute migraine medications, or rescue medications as prescribed.",
+        "Identifying and avoiding triggers such as certain foods, stress, or hormonal changes.",
+        "Practicing relaxation techniques such as deep breathing exercises or progressive muscle relaxation.",
+        "Seeking medical care for severe or prolonged migraines that don't respond to over-the-counter treatments."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Pilates",
+        "Swimming"
+      ],
+      "foods_to_eat": [
+        "Magnesium-rich foods (e.g., almonds, spinach)",
+        "Foods containing omega-3 fatty acids (e.g., fatty fish, flaxseeds)",
+        "Complex carbohydrates (e.g., whole grains, sweet potatoes)",
+        "Foods high in riboflavin (e.g., eggs, dairy products)",
+        "Hydrating foods (e.g., cucumber, watermelon)"
+      ]
+    },
+    {
+      "name": "Hypothyroidism (Underactive Thyroid)",
+      "description": "Hypothyroidism, also known as underactive thyroid, is a condition in which the thyroid gland doesn't produce enough thyroid hormone, leading to symptoms such as fatigue, weight gain, and sensitivity to cold.",
+      "remedies": [
+        "Taking synthetic thyroid hormone replacement medications to restore hormone levels.",
+        "Monitoring thyroid function regularly with blood tests and adjusting medication doses as needed.",
+        "Eating a balanced diet rich in iodine and selenium to support thyroid function.",
+        "Managing symptoms such as fatigue and depression with lifestyle modifications and medications."
+      ],
+      "exercises": [
+        "Walking",
+        "Yoga",
+        "Tai Chi",
+        "Pilates"
+      ],
+      "foods_to_eat": [
+        "Foods rich in iodine (e.g., seaweed, iodized salt)",
+        "Foods high in selenium (e.g., Brazil nuts, sunflower seeds)",
+        "Foods containing iron (e.g., lean meats, beans)",
+        "Foods with vitamin D (e.g., fatty fish, fortified dairy products)",
+        "Fruits and vegetables (e.g., citrus fruits, leafy greens)"
+      ]
+    }
+  ]
+}
