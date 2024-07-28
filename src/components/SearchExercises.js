@@ -67,6 +67,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         style={{
           position: "relative",
           marginBottom: "72px",
+          display: "flex",
         }}
       >
         <input
@@ -91,7 +92,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             color: "#fff",
             textTransform: "none",
             width: "80px",
-            height: "57px",
+            // height: "57px",
             fontSize: "14px",
             border: "none",
             borderRadius: "40px",

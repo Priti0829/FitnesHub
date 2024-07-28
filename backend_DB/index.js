@@ -13,9 +13,7 @@ connectToMongoDB();
 app.use(cors()); //for server running diff ports 
 app.use(express.json());
 
-app.get('/', (req, res) => {
-	res.send("Hello anand ");
-})
+
 
 // using routes
 app.use('/auth', require('./routes/auth'));
